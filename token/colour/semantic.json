@@ -3,11 +3,13 @@
     "text": {
       "primary": {
         "value": "{neutrals.black}",
-        "type": "color"
+        "type": "color",
+        "description": "Primary text color"
       },
       "secondary": {
         "value": "{gray.4}",
-        "type": "color"
+        "type": "color",
+        "description": "Secondary text color"
       },
       "inverted": {
         "value": "{neutrals.white}",
@@ -15,7 +17,7 @@
         "description": "Used on buttons and headers"
       },
       "link": {
-        "value": "#00A3D6",
+        "value": "{undocumented.blue.A}",
         "type": "color",
         "description": "⚠️ Should this be blue 1 or 2?"
       }
@@ -23,19 +25,23 @@
     "notice": {
       "error": {
         "value": "#D35E5E",
-        "type": "color"
+        "type": "color",
+        "description": "⚠️ Not documnted"
       },
       "high-priority": {
         "value": "#D35E5E",
-        "type": "color"
+        "type": "color",
+        "description": "⚠️ Not documnted"
       },
       "warning": {
         "value": "#E4A31A",
-        "type": "color"
+        "type": "color",
+        "description": "⚠️ Not documnted"
       },
       "medium-priority": {
         "value": "#E4A31A",
-        "type": "color"
+        "type": "color",
+        "description": "⚠️ Not documnted"
       },
       "status": {
         "value": "{undocumented.blue.B}",
@@ -46,7 +52,8 @@
     "divider": {
       "primary": {
         "value": "{gray.3}",
-        "type": "color"
+        "type": "color",
+        "description": "Primary divider color to break up content"
       }
     }
   },
@@ -55,7 +62,7 @@
       "primary": {
         "value": "{blue.1}",
         "type": "color",
-        "description": "Central header color"
+        "description": "Central header section"
       },
       "secondary": {
         "value": "{blue.2}",
@@ -118,19 +125,23 @@
     "notice": {
       "error": {
         "value": "{red.1}",
-        "type": "color"
+        "type": "color",
+        "description": "Background color to error notices"
       },
       "high-priority": {
         "value": "{red.1}",
-        "type": "color"
+        "type": "color",
+        "description": "Background color to high priority notices"
       },
       "warning": {
         "value": "{yellow.1}",
-        "type": "color"
+        "type": "color",
+        "description": "Background color to warning notices"
       },
       "medium-priority": {
         "value": "{yellow.1}",
-        "type": "color"
+        "type": "color",
+        "description": "Background color to medium priority notices"
       },
       "status": {
         "value": "#E5F4F9",
