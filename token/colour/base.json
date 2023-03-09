@@ -45,14 +45,14 @@
       "description": "Used for events cards with\nno pictures."
     }
   },
-  "Turqoise": {
+  "turqoise": {
     "1": {
       "value": "#88CAD5",
       "type": "color",
       "description": "Used for events cards with\nno pictures."
     }
   },
-  "Pink": {
+  "pink": {
     "1": {
       "value": "#EF6D8E",
       "type": "color",

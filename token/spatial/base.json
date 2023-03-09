@@ -3,10 +3,6 @@
     "value": "Open Sans",
     "type": "fontFamilies"
   },
-  "base": {
-    "value": "4",
-    "type": "other"
-  },
   "fs-sm": {
     "value": "{base}*4",
     "type": "fontSizes"

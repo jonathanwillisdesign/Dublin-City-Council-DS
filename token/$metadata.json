@@ -1,8 +1,10 @@
 {
   "tokenSetOrder": [
+    "spatial/device/desktop",
+    "spatial/device/tablet",
+    "spatial/device/mobile",
     "spatial/base",
     "spatial/type_styles",
-    "spatial/overides/mobile",
     "colour/base",
     "colour/semantic",
     "sites/dublin_city_dot_ie"

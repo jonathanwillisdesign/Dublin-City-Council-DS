@@ -44,8 +44,10 @@
       }
     },
     "divider": {
-      "value": "{gray.3}",
-      "type": "color"
+      "primary": {
+        "value": "{gray.3}",
+        "type": "color"
+      }
     }
   },
   "bg": {
@@ -137,15 +139,24 @@
       }
     },
     "panel": {
-      "default": {
-        "value": "{gray.1}",
-        "type": "color",
-        "description": "Main Panel colors"
+      "standard": {
+        "default": {
+          "value": "{gray.1}",
+          "type": "color",
+          "description": "Main Panel colors"
+        },
+        "hover": {
+          "value": "{gray.2}",
+          "type": "color",
+          "description": "Panel hover state"
+        }
       },
-      "hover": {
-        "value": "{gray.2}",
-        "type": "color",
-        "description": "Panel hover state"
+      "wide": {
+        "default": {
+          "value": "#E9E9E9",
+          "type": "color",
+          "description": "⚠️ Consider bringing into core system - documnted as gray 6 but sits outside scale. Used only for where Grey panels run outside the\nmain body."
+        }
       }
     },
     "body": {
