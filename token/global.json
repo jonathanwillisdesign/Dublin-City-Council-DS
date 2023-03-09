@@ -1,1 +1,78 @@
-{}
+{
+  "ff-main": {
+    "value": "Open Sans",
+    "type": "fontFamilies"
+  },
+  "base": {
+    "value": "4",
+    "type": "other"
+  },
+  "fs-sm": {
+    "value": "{base}*4",
+    "type": "fontSizes"
+  },
+  "fs-md": {
+    "value": "{base}*4.5",
+    "type": "fontSizes"
+  },
+  "fs-lg": {
+    "value": "{base}*5",
+    "type": "fontSizes"
+  },
+  "fs-xl": {
+    "value": "{base}*5.5",
+    "type": "fontSizes"
+  },
+  "fs-xxl": {
+    "value": "{base}*10",
+    "type": "fontSizes"
+  },
+  "lh-loose": {
+    "sm": {
+      "value": "{base}*6",
+      "type": "lineHeights"
+    },
+    "md": {
+      "value": "{base}*6.75",
+      "type": "lineHeights"
+    },
+    "xl": {
+      "value": "{base}*8",
+      "type": "lineHeights"
+    }
+  },
+  "lh-tight": {
+    "md": {
+      "value": "{base}*6.5",
+      "type": "lineHeights"
+    },
+    "lg": {
+      "value": "{base}*6.5",
+      "type": "lineHeights"
+    },
+    "xxl": {
+      "value": "{base}*12",
+      "type": "lineHeights"
+    }
+  },
+  "default": {
+    "value": "none",
+    "type": "textDecoration"
+  },
+  "link": {
+    "value": "underline",
+    "type": "textDecoration"
+  },
+  "fw-base": {
+    "value": "Regular",
+    "type": "fontWeights"
+  },
+  "fw-mid": {
+    "value": "SemiBold",
+    "type": "fontWeights"
+  },
+  "fw-max": {
+    "value": "Bold",
+    "type": "fontWeights"
+  }
+}
