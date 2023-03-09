@@ -97,5 +97,17 @@
       "type": "color",
       "description": "Used for all Grey text\nthroughout the site, such\nas links to locations."
     }
+  },
+  "undocumented": {
+    "blue": {
+      "A": {
+        "value": "#00A3D6",
+        "type": "color"
+      },
+      "B": {
+        "value": "#00749E",
+        "type": "color"
+      }
+    }
   }
 }

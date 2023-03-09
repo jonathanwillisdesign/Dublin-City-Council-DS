@@ -1,10 +1,10 @@
 {
   "tokenSetOrder": [
-    "global",
-    "type",
-    "mobile",
-    "colors",
-    "semantic",
-    "dublin_city_dot_ie"
+    "spatial/base",
+    "spatial/type_styles",
+    "spatial/overides/mobile",
+    "colour/base",
+    "colour/semantic",
+    "sites/dublin_city_dot_ie"
   ]
 }
