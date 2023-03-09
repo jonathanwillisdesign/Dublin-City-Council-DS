@@ -1,0 +1,16 @@
+{
+  "bw": {
+    "thin": {
+      "value": "1",
+      "type": "borderWidth"
+    },
+    "med": {
+      "value": "3",
+      "type": "borderWidth"
+    },
+    "thick": {
+      "value": "6",
+      "type": "borderWidth"
+    }
+  }
+}
