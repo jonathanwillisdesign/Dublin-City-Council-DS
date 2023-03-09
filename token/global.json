@@ -27,7 +27,7 @@
     "value": "{base}*10",
     "type": "fontSizes"
   },
-  "lh-loose": {
+  "lh-body": {
     "sm": {
       "value": "{base}*6",
       "type": "lineHeights"
@@ -41,13 +41,17 @@
       "type": "lineHeights"
     }
   },
-  "lh-tight": {
-    "md": {
+  "lh-heading": {
+    "sm": {
       "value": "{base}*6.5",
       "type": "lineHeights"
     },
     "lg": {
       "value": "{base}*6.5",
+      "type": "lineHeights"
+    },
+    "xl": {
+      "value": "{base}*8",
       "type": "lineHeights"
     },
     "xxl": {

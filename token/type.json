@@ -1,1 +1,44 @@
-{}
+{
+  "heading": {
+    "h1": {
+      "value": {
+        "fontWeight": "{fw-max}",
+        "fontFamily": "{ff-main}",
+        "lineHeight": "{lh-heading.xxl}",
+        "fontSize": "{fs-xxl}",
+        "textDecoration": "{default}"
+      },
+      "type": "typography"
+    },
+    "h2": {
+      "value": {
+        "fontWeight": "{fw-max}",
+        "fontFamily": "{ff-main}",
+        "lineHeight": "{lh-heading.xl}",
+        "fontSize": "{fs-xl}",
+        "textDecoration": "{default}"
+      },
+      "type": "typography"
+    },
+    "h3": {
+      "value": {
+        "fontWeight": "{fw-max}",
+        "fontFamily": "{ff-main}",
+        "lineHeight": "{lh-heading.lg}",
+        "fontSize": "{fs-lg}",
+        "textDecoration": "{default}"
+      },
+      "type": "typography"
+    },
+    "h4": {
+      "value": {
+        "fontWeight": "{fw-max}",
+        "fontFamily": "{ff-main}",
+        "lineHeight": "{lh-heading.sm}",
+        "fontSize": "{fs-sm}",
+        "textDecoration": "{default}"
+      },
+      "type": "typography"
+    }
+  }
+}

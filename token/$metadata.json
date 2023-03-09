@@ -1,6 +1,7 @@
 {
   "tokenSetOrder": [
     "global",
-    "type"
+    "type",
+    "mobile"
   ]
 }
