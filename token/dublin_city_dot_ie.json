@@ -1,0 +1,10 @@
+{
+  "bg": {
+    "header": {
+      "primary": {
+        "value": "#00749E",
+        "type": "color"
+      }
+    }
+  }
+}

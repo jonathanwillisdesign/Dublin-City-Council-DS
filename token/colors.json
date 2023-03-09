@@ -1,0 +1,101 @@
+{
+  "blue": {
+    "1": {
+      "value": "#0092C5",
+      "type": "color",
+      "description": "DCC Blue, slightly edited\nfor accessibility. Used\nfor the main header and\nCTAs throughout the DCC\nwebsite."
+    },
+    "2": {
+      "value": "#008BBB",
+      "type": "color",
+      "description": "A slightly darker Blue, used\nfor rollovers and for the\nsection of header to the\nleft and right of the main\nbody of the site."
+    },
+    "3": {
+      "value": "#00313E",
+      "type": "color",
+      "description": "Used in the footer and for\nthe search button."
+    },
+    "4": {
+      "value": "#002F3B",
+      "type": "color",
+      "description": "A slightly darker Navy,\nused for rollovers and for\nthe section of footer to the\nleft and right of the main\nbody of the site."
+    },
+    "5": {
+      "value": "#00222B",
+      "type": "color",
+      "description": "Used in the bottom strip\nof the footer."
+    },
+    "6": {
+      "value": "#002029",
+      "type": "color",
+      "description": "Used for the sections of\nthe bottom strip of the\nfooter to the left and right\nof the main body of the\nsite."
+    }
+  },
+  "pink": {
+    "1": {
+      "value": "#EBB6B6",
+      "type": "color",
+      "description": "Used for emergency\nnotifications or red alerts."
+    }
+  },
+  "yellow": {
+    "1": {
+      "value": "#FBDB98",
+      "type": "color",
+      "description": "Used for events cards with\nno pictures."
+    }
+  },
+  "Turqoise": {
+    "1": {
+      "value": "#88CAD5",
+      "type": "color",
+      "description": "Used for events cards with\nno pictures."
+    }
+  },
+  "Pink": {
+    "1": {
+      "value": "#EF6D8E",
+      "type": "color",
+      "description": "Used for events cards\nwith no pictures."
+    }
+  },
+  "purple": {
+    "1": {
+      "value": "#928CB0",
+      "type": "color",
+      "description": "Used for events cards with\nno pictures."
+    }
+  },
+  "neutrals": {
+    "white": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "black": {
+      "value": "#000000",
+      "type": "color"
+    }
+  },
+  "gray": {
+    "1": {
+      "value": "#F6F6F6",
+      "type": "color",
+      "description": "Used for all Grey panels\nthroughout the site."
+    },
+    "2": {
+      "value": "#EBEBEB",
+      "type": "color",
+      "description": "Used for all highlighted\nrollovers within the\nGrey panels."
+    },
+    "3": {
+      "value": "#DFDFDF",
+      "type": "color",
+      "description": "Used for all divider lines\nthroughout the site."
+    },
+    "4": {
+      "value": "#777777",
+      "type": "color",
+      "description": "Used for all Grey text\nthroughout the site, such\nas links to locations."
+    }
+  }
+}

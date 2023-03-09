@@ -2,6 +2,9 @@
   "tokenSetOrder": [
     "global",
     "type",
-    "mobile"
+    "mobile",
+    "colors",
+    "semantic",
+    "dublin_city_dot_ie"
   ]
 }

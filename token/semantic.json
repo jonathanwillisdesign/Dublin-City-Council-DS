@@ -1,0 +1,75 @@
+{
+  "fg": {
+    "text": {
+      "link": {
+        "value": "#00A3D6",
+        "type": "color",
+        "description": "⚠️ Should this be blue 1 or 2?"
+      }
+    }
+  },
+  "bg": {
+    "header": {
+      "primary": {
+        "value": "{blue.1}",
+        "type": "color",
+        "description": "Central header color"
+      },
+      "secondary": {
+        "value": "{blue.2}",
+        "type": "color",
+        "description": "Used at sections to left and right of main header"
+      }
+    },
+    "footer": {
+      "primary": {
+        "value": "{blue.3}",
+        "type": "color",
+        "description": "Central footer section"
+      },
+      "secondary": {
+        "value": "{blue.4}",
+        "type": "color",
+        "description": "Section left and right of main footer area"
+      }
+    },
+    "button": {
+      "primary": {
+        "default": {
+          "value": "{blue.1}",
+          "type": "color",
+          "description": "Background colour for call to actions such as buttons."
+        },
+        "hover": {
+          "value": "{blue.2}",
+          "type": "color",
+          "description": "Hover state for primary buttons and call to actions"
+        }
+      },
+      "secondary": {
+        "default": {
+          "value": "{blue.3}",
+          "type": "color",
+          "description": "Background colour for secondary buttons such as search."
+        },
+        "hover": {
+          "value": "{blue.4}",
+          "type": "color",
+          "description": "Hover state for secondary buttons such as search"
+        }
+      }
+    },
+    "footer-bottom": {
+      "primary": {
+        "value": "{blue.5}",
+        "type": "color",
+        "description": "Central section in the bottom strip of footer"
+      },
+      "secondary": {
+        "value": "{blue.6}",
+        "type": "color",
+        "description": "Section left and right of bottom strip of footer"
+      }
+    }
+  }
+}
