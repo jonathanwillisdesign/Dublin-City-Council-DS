@@ -33,32 +33,6 @@
         "description": "Section left and right of main footer area"
       }
     },
-    "button": {
-      "primary": {
-        "default": {
-          "value": "{blue.1}",
-          "type": "color",
-          "description": "Background colour for call to actions such as buttons."
-        },
-        "hover": {
-          "value": "{blue.2}",
-          "type": "color",
-          "description": "Hover state for primary buttons and call to actions"
-        }
-      },
-      "secondary": {
-        "default": {
-          "value": "{blue.3}",
-          "type": "color",
-          "description": "Background colour for secondary buttons such as search."
-        },
-        "hover": {
-          "value": "{blue.4}",
-          "type": "color",
-          "description": "Hover state for secondary buttons such as search"
-        }
-      }
-    },
     "footer-bottom": {
       "primary": {
         "value": "{blue.5}",
@@ -69,6 +43,32 @@
         "value": "{blue.6}",
         "type": "color",
         "description": "Section left and right of bottom strip of footer"
+      },
+      "button": {
+        "primary": {
+          "default": {
+            "value": "{blue.1}",
+            "type": "color",
+            "description": "Background colour for call to actions such as buttons."
+          },
+          "hover": {
+            "value": "{blue.2}",
+            "type": "color",
+            "description": "Hover state for primary buttons and call to actions"
+          }
+        },
+        "secondary": {
+          "default": {
+            "value": "{blue.3}",
+            "type": "color",
+            "description": "Background colour for secondary buttons such as search."
+          },
+          "hover": {
+            "value": "{blue.4}",
+            "type": "color",
+            "description": "Hover state for secondary buttons such as search"
+          }
+        }
       }
     }
   }
