@@ -6,6 +6,29 @@
         "type": "color",
         "description": "⚠️ Should this be blue 1 or 2?"
       }
+    },
+    "notice": {
+      "error": {
+        "value": "#D35E5E",
+        "type": "color"
+      },
+      "high-priority": {
+        "value": "#D35E5E",
+        "type": "color"
+      },
+      "warning": {
+        "value": "#E4A31A",
+        "type": "color"
+      },
+      "medium-priority": {
+        "value": "#E4A31A",
+        "type": "color"
+      },
+      "status": {
+        "value": "#E5F4F9",
+        "type": "color",
+        "description": "⚠️ Consider adding into core palette"
+      }
     }
   },
   "bg": {
@@ -69,6 +92,29 @@
             "description": "Hover state for secondary buttons such as search"
           }
         }
+      }
+    },
+    "notice": {
+      "error": {
+        "value": "{red.1}",
+        "type": "color"
+      },
+      "high-priority": {
+        "value": "{red.1}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{yellow.1}",
+        "type": "color"
+      },
+      "medium-priority": {
+        "value": "{yellow.1}",
+        "type": "color"
+      },
+      "status": {
+        "value": "#E5F4F9",
+        "type": "color",
+        "description": "⚠️ Consider adding into core palette"
       }
     }
   }

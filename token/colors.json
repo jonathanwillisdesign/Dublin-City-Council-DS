@@ -31,7 +31,7 @@
       "description": "Used for the sections of\nthe bottom strip of the\nfooter to the left and right\nof the main body of the\nsite."
     }
   },
-  "pink": {
+  "red": {
     "1": {
       "value": "#EBB6B6",
       "type": "color",
