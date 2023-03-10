@@ -3,7 +3,8 @@
     "header": {
       "primary": {
         "value": "{undocumented.blue.B}",
-        "type": "color"
+        "type": "color",
+        "description": "Central header section"
       }
     }
   }

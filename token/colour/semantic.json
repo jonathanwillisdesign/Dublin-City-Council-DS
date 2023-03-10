@@ -24,12 +24,12 @@
     },
     "notice": {
       "error": {
-        "value": "#D35E5E",
+        "value": "{undocumented.red.A}",
         "type": "color",
         "description": "⚠️ Not documnted"
       },
       "high-priority": {
-        "value": "#D35E5E",
+        "value": "{undocumented.red.A}",
         "type": "color",
         "description": "⚠️ Not documnted"
       },

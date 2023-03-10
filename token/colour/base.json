@@ -69,11 +69,13 @@
   "neutrals": {
     "white": {
       "value": "#ffffff",
-      "type": "color"
+      "type": "color",
+      "description": "Used as main page body color"
     },
     "black": {
       "value": "#000000",
-      "type": "color"
+      "type": "color",
+      "description": "Used as main fg color for text"
     }
   },
   "gray": {
@@ -115,6 +117,20 @@
         "value": "#666666",
         "type": "color",
         "description": "❓ Used somewhere prominent but unknown slight darker than gray 4"
+      }
+    },
+    "red": {
+      "A": {
+        "value": "#D35E5E",
+        "type": "color",
+        "description": "❓Used as fg color on notices"
+      }
+    },
+    "yellow": {
+      "A": {
+        "value": "#E4A31A",
+        "type": "color",
+        "description": "❓Used as fg color on notices"
       }
     }
   }
