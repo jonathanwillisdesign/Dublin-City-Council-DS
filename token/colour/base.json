@@ -104,12 +104,18 @@
     "blue": {
       "A": {
         "value": "#00A3D6",
-        "type": "color"
+        "type": "color",
+        "description": "❓ Text link color - possibly original brand blue"
       },
       "B": {
         "value": "#00749E",
         "type": "color",
         "description": "❓ Tweaked version of core brand color for greater contrast"
+      },
+      "C": {
+        "value": "#E5F4F9",
+        "type": "color",
+        "description": "❓ Background colour used in notices"
       }
     },
     "gray": {
