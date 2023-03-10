@@ -34,12 +34,12 @@
         "description": "⚠️ Not documnted"
       },
       "warning": {
-        "value": "#E4A31A",
+        "value": "{undocumented.yellow.A}",
         "type": "color",
         "description": "⚠️ Not documnted"
       },
       "medium-priority": {
-        "value": "#E4A31A",
+        "value": "{undocumented.yellow.A}",
         "type": "color",
         "description": "⚠️ Not documnted"
       },
