@@ -106,7 +106,15 @@
       },
       "B": {
         "value": "#00749E",
-        "type": "color"
+        "type": "color",
+        "description": "❓ Tweaked version of core brand color for greater contrast"
+      }
+    },
+    "gray": {
+      "A": {
+        "value": "#666666",
+        "type": "color",
+        "description": "❓ Used somewhere prominent but unknown slight darker than gray 4"
       }
     }
   }
