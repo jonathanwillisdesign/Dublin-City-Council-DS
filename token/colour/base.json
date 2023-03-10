@@ -139,5 +139,9 @@
         "description": "❓Used as fg color on notices"
       }
     }
+  },
+  "vibes": {
+    "value": "#18e741",
+    "type": "color"
   }
 }
