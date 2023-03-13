@@ -165,7 +165,7 @@
       "title-container": {
         "value": {
           "horizontalPadding": "0",
-          "verticalPadding": "{4u}",
+          "verticalPadding": "0",
           "itemSpacing": "{3u}"
         },
         "type": "composition"
@@ -219,16 +219,17 @@
       },
       "content-wrapper": {
         "value": {
-          "verticalPadding": "{6u}",
-          "horizontalPadding": "{6u}"
+          "verticalPadding": "0",
+          "horizontalPadding": "0"
         },
         "type": "composition"
       },
       "overall-container": {
         "value": {
-          "verticalPadding": "{5u}",
-          "horizontalPadding": "{5u}",
-          "fill": "{bg.panel.standard.default}"
+          "verticalPadding": "{6u}",
+          "horizontalPadding": "{6u}",
+          "fill": "{bg.panel.standard.default}",
+          "itemSpacing": "{6u}"
         },
         "type": "composition"
       }
