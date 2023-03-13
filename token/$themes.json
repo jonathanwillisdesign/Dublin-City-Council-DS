@@ -1,7 +1,7 @@
 [
   {
     "id": "382dc6a1de28110099e7525b9559d88e084860e3",
-    "name": "Light / Dektop",
+    "name": "Light / Desktop",
     "selectedTokenSets": {
       "spatial/device/desktop": "enabled",
       "spatial/spacing": "enabled",
