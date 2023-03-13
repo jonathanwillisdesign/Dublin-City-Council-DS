@@ -177,6 +177,28 @@
         },
         "type": "border"
       }
+    },
+    "secondary": {
+      "default": {
+        "value": {
+          "color": "{bg.button.secondary.default}",
+          "width": "0",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "focus": {
+        "value": {
+          "color": "{blue.4}",
+          "width": "1.5",
+          "style": "solid"
+        },
+        "type": "border"
+      }
     }
+  },
+  "focus": {
+    "value": "1.5",
+    "type": "borderWidth"
   }
 }
