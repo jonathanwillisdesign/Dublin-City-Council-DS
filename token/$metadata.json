@@ -3,11 +3,13 @@
     "spatial/device/desktop",
     "spatial/device/tablet",
     "spatial/device/mobile",
-    "spatial/base",
+    "spatial/spacing",
+    "spatial/type_primitives",
     "spatial/type_styles",
     "colour/base",
     "colour/semantic",
     "border",
-    "sites/dublin_city_dot_ie"
+    "sites/dublin_city_dot_ie",
+    "components"
   ]
 }

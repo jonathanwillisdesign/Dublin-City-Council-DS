@@ -1,0 +1,45 @@
+{
+  "text": {
+    "bullet": {
+      "primary": {
+        "dot": {
+          "value": {
+            "width": "{base}*3",
+            "height": "{base}*3",
+            "fill": "{fg.bullet.primary}"
+          },
+          "type": "composition"
+        },
+        "wrapper": {
+          "value": {
+            "height": "{base}*6.75"
+          },
+          "type": "composition"
+        },
+        "container": {
+          "value": {
+            "horizontalPadding": "0",
+            "verticalPadding": "0",
+            "itemSpacing": "{2u}"
+          },
+          "type": "composition"
+        },
+        "text": {
+          "value": {
+            "typography": "{body.small.default}",
+            "fill": "{fg.text.primary}"
+          },
+          "type": "composition"
+        },
+        "group": {
+          "value": {
+            "verticalPadding": "0",
+            "horizontalPadding": "0",
+            "itemSpacing": "{1u}"
+          },
+          "type": "composition"
+        }
+      }
+    }
+  }
+}

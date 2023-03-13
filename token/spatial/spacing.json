@@ -1,0 +1,50 @@
+{
+  "1u": {
+    "value": "{base}",
+    "type": "spacing"
+  },
+  "2u": {
+    "value": "2*{base}",
+    "type": "spacing"
+  },
+  "3u": {
+    "value": "3*{base}",
+    "type": "spacing"
+  },
+  "4u": {
+    "value": "4*{base}",
+    "type": "spacing"
+  },
+  "5u": {
+    "value": "5*{base}",
+    "type": "spacing"
+  },
+  "6u": {
+    "value": "6*{base}",
+    "type": "spacing"
+  },
+  "7u": {
+    "value": "7*{base}",
+    "type": "spacing"
+  },
+  "8u": {
+    "value": "8*{base}",
+    "type": "spacing"
+  },
+  "9u": {
+    "value": "9*{base}",
+    "type": "spacing"
+  },
+  "10u": {
+    "value": "10*{base}",
+    "type": "spacing"
+  },
+  "11u": {
+    "value": "11*{base}",
+    "type": "spacing"
+  },
+  "12u": {
+    "value": "12*{base}",
+    "type": "spacing"
+  }
+}
