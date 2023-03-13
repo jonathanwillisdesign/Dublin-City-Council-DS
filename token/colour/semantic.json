@@ -17,7 +17,7 @@
         "description": "Used on buttons and headers"
       },
       "link": {
-        "value": "{undocumented.blue.A}",
+        "value": "{undocumented.blue.B}",
         "type": "color",
         "description": "⚠️ Should this be blue 1 or 2?"
       }

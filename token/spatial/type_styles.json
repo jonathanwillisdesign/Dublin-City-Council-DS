@@ -108,7 +108,7 @@
         "type": "typography"
       }
     },
-    "extra-small": {
+    "xsmall": {
       "default": {
         "value": {
           "fontFamily": "{ff-main}",
