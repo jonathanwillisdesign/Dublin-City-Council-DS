@@ -24,6 +24,10 @@
     "type": "fontSizes"
   },
   "lh-body": {
+    "xs": {
+      "value": "{base}*5.5",
+      "type": "lineHeights"
+    },
     "sm": {
       "value": "{base}*6",
       "type": "lineHeights"
@@ -74,5 +78,9 @@
   "fw-max": {
     "value": "Bold",
     "type": "fontWeights"
+  },
+  "fs-xs": {
+    "value": "{base}*3.5",
+    "type": "fontSizes"
   }
 }

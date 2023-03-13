@@ -107,6 +107,28 @@
         },
         "type": "typography"
       }
+    },
+    "extra-small": {
+      "default": {
+        "value": {
+          "fontFamily": "{ff-main}",
+          "fontWeight": "{fw-base}",
+          "lineHeight": "{lh-body.xs}",
+          "fontSize": "{fs-xs}",
+          "textDecoration": "{default}"
+        },
+        "type": "typography"
+      },
+      "link": {
+        "value": {
+          "fontFamily": "{ff-main}",
+          "fontWeight": "{fw-base}",
+          "lineHeight": "{lh-body.xs}",
+          "fontSize": "{fs-xs}",
+          "textDecoration": "{link}"
+        },
+        "type": "typography"
+      }
     }
   }
 }

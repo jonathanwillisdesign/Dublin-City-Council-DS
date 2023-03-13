@@ -51,6 +51,45 @@
           "type": "composition"
         }
       }
+    },
+    "heading": {
+      "h1": {
+        "value": {
+          "typography": "{heading.h1}",
+          "fill": "{fg.text.primary}"
+        },
+        "type": "composition"
+      },
+      "h2": {
+        "value": {
+          "typography": "{heading.h2}",
+          "fill": "{fg.text.primary}"
+        },
+        "type": "composition"
+      },
+      "h3": {
+        "value": {
+          "typography": "{heading.h3}",
+          "fill": "{fg.text.primary}"
+        },
+        "type": "composition"
+      },
+      "h4": {
+        "value": {
+          "typography": "{heading.h4}",
+          "fill": "{fg.text.primary}"
+        },
+        "type": "composition"
+      }
+    },
+    "body": {
+      "large": {
+        "value": {
+          "typography": "{body.large.default}",
+          "fill": "{fg.text.primary}"
+        },
+        "type": "composition"
+      }
     }
   },
   "Info": {
