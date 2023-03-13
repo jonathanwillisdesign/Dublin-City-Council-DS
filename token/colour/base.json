@@ -123,6 +123,11 @@
         "value": "#666666",
         "type": "color",
         "description": "❓ Used somewhere prominent but unknown slight darker than gray 4"
+      },
+      "B": {
+        "value": "#D9D9D9",
+        "type": "color",
+        "description": "❓ Used in bullet for bullet points"
       }
     },
     "red": {

@@ -55,6 +55,13 @@
         "type": "color",
         "description": "Primary divider color to break up content"
       }
+    },
+    "bullet": {
+      "primary": {
+        "value": "{undocumented.gray.B}",
+        "type": "color",
+        "description": "Colour for bullet points"
+      }
     }
   },
   "bg": {
