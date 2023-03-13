@@ -3,16 +3,27 @@
     "bullet": {
       "primary": {
         "dot": {
-          "value": {
-            "width": "{base}*3",
-            "height": "{base}*3",
-            "fill": "{fg.bullet.primary}"
+          "defalt": {
+            "value": {
+              "width": "{base}*3",
+              "height": "{base}*3",
+              "fill": "{fg.bullet.primary}"
+            },
+            "type": "composition"
           },
-          "type": "composition"
+          "small": {
+            "value": {
+              "width": "{base}*1",
+              "height": "{base}*1",
+              "fill": "{fg.text.primary}"
+            },
+            "type": "composition"
+          }
         },
         "wrapper": {
           "value": {
-            "height": "{base}*6.75"
+            "height": "{base}*6.75",
+            "width": "{base}*3"
           },
           "type": "composition"
         },
