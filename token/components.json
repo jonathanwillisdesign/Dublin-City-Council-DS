@@ -3,7 +3,7 @@
     "bullet": {
       "primary": {
         "dot": {
-          "defalt": {
+          "default": {
             "value": {
               "width": "{base}*3",
               "height": "{base}*3",
