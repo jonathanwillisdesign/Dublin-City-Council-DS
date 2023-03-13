@@ -106,12 +106,12 @@
     "button": {
       "primary": {
         "default": {
-          "value": "{blue.1}",
+          "value": "{undocumented.blue.B}",
           "type": "color",
           "description": "Background colour for call to actions such as buttons."
         },
         "hover": {
-          "value": "{blue.2}",
+          "value": "{undocumented.blue.D}",
           "type": "color",
           "description": "Hover state for primary buttons and call to actions"
         }

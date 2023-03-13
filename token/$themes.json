@@ -11,7 +11,8 @@
       "colour/semantic": "enabled",
       "border": "enabled",
       "sites/dublin_city_dot_ie": "enabled",
-      "components": "enabled"
+      "components": "enabled",
+      "effects": "enabled"
     },
     "$figmaStyleReferences": {}
   }

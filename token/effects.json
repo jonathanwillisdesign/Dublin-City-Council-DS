@@ -1,0 +1,26 @@
+{
+  "shadow": {
+    "none": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "6",
+        "spread": "0",
+        "color": "rgba({blue.1},0)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "primary": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "6",
+        "spread": "0",
+        "color": "rgba({blue.1},1)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    }
+  }
+}

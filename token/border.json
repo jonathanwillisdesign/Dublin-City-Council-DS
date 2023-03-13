@@ -158,5 +158,25 @@
         }
       }
     }
+  },
+  "button": {
+    "primary": {
+      "default": {
+        "value": {
+          "color": "{bg.button.primary.default}",
+          "width": "{bw.thin}",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "hover": {
+        "value": {
+          "color": "{bg.button.primary.hover}",
+          "width": "{bw.med}",
+          "style": "solid"
+        },
+        "type": "border"
+      }
+    }
   }
 }

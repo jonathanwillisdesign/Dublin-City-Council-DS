@@ -243,5 +243,33 @@
       },
       "type": "composition"
     }
+  },
+  "button": {
+    "primary": {
+      "bg": {
+        "default": {
+          "value": {
+            "verticalPadding": "{4u}",
+            "horizontalPadding": "{5u}",
+            "itemSpacing": "{2u}",
+            "fill": "{bg.button.primary.default}",
+            "border": "{button.primary.default}",
+            "boxShadow": "{shadow.none}"
+          },
+          "type": "composition"
+        },
+        "hover": {
+          "value": {
+            "verticalPadding": "{4u}",
+            "horizontalPadding": "{5u}",
+            "itemSpacing": "{2u}",
+            "fill": "{bg.button.primary.hover}",
+            "boxShadow": "{shadow.primary}",
+            "border": "{button.primary.default}"
+          },
+          "type": "composition"
+        }
+      }
+    }
   }
 }

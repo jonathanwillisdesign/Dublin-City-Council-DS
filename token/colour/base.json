@@ -116,6 +116,11 @@
         "value": "#E5F4F9",
         "type": "color",
         "description": "❓ Background colour used in notices"
+      },
+      "D": {
+        "value": "#006990",
+        "type": "color",
+        "description": "❓ Hover Colour for button"
       }
     },
     "gray": {
