@@ -53,68 +53,194 @@
       }
     }
   },
-  "notice": {
-    "title": {
-      "value": {
-        "typography": "{body.standard.link}",
-        "fill": "{fg.text.primary}"
+  "Info": {
+    "notice": {
+      "title": {
+        "value": {
+          "typography": "{body.standard.link}",
+          "fill": "{fg.text.primary}"
+        },
+        "type": "composition"
       },
-      "type": "composition"
+      "content-wrapper": {
+        "value": {
+          "verticalPadding": "0",
+          "horizontalPadding": "0",
+          "itemSpacing": "{2u}"
+        },
+        "type": "composition"
+      },
+      "container": {
+        "error": {
+          "value": {
+            "fill": "{bg.notice.error}",
+            "verticalPadding": "{5u}",
+            "horizontalPadding": "{5u}",
+            "itemSpacing": "{7u}"
+          },
+          "type": "composition"
+        },
+        "high-priority": {
+          "value": {
+            "fill": "{bg.notice.high-priority}",
+            "verticalPadding": "{5u}",
+            "horizontalPadding": "{5u}",
+            "itemSpacing": "{7u}"
+          },
+          "type": "composition"
+        },
+        "warning": {
+          "value": {
+            "fill": "{bg.notice.warning}",
+            "verticalPadding": "{5u}",
+            "horizontalPadding": "{5u}",
+            "itemSpacing": "{7u}"
+          },
+          "type": "composition"
+        },
+        "medium-priority": {
+          "value": {
+            "fill": "{bg.notice.medium-priority}",
+            "verticalPadding": "{5u}",
+            "horizontalPadding": "{5u}",
+            "itemSpacing": "{7u}"
+          },
+          "type": "composition"
+        },
+        "status": {
+          "value": {
+            "fill": "{bg.notice.status}",
+            "verticalPadding": "{5u}",
+            "horizontalPadding": "{5u}",
+            "itemSpacing": "{7u}"
+          },
+          "type": "composition"
+        }
+      }
     },
-    "content-wrapper": {
-      "value": {
-        "verticalPadding": "0",
-        "horizontalPadding": "0",
-        "itemSpacing": "{2u}"
-      },
-      "type": "composition"
-    },
-    "container": {
-      "error": {
+    "opening-hours": {
+      "icon": {
         "value": {
-          "fill": "{bg.notice.error}",
-          "verticalPadding": "{5u}",
-          "horizontalPadding": "{5u}",
-          "itemSpacing": "{7u}"
+          "border": "{icon.border.small.secondary}"
         },
         "type": "composition"
       },
-      "high-priority": {
+      "text": {
+        "title": {
+          "value": {
+            "typography": "{heading.h2}",
+            "fill": "{fg.text.primary}"
+          },
+          "type": "composition"
+        },
+        "today-title": {
+          "value": {
+            "typography": "{heading.h2}",
+            "fill": "{fg.text.primary}"
+          },
+          "type": "composition"
+        },
+        "today-summary": {
+          "value": {
+            "typography": "{body.large.default}",
+            "fill": "{fg.text.primary}"
+          },
+          "type": "composition"
+        },
+        "date-reg": {
+          "value": {
+            "typography": "{body.standard.default}",
+            "fill": "{fg.text.primary}"
+          },
+          "type": "composition"
+        },
+        "date-bold": {
+          "value": {
+            "typography": "{body.standard.bold}",
+            "fill": "{fg.text.primary}"
+          },
+          "type": "composition"
+        }
+      },
+      "title-container": {
         "value": {
-          "fill": "{bg.notice.high-priority}",
-          "verticalPadding": "{5u}",
-          "horizontalPadding": "{5u}",
-          "itemSpacing": "{7u}"
+          "horizontalPadding": "0",
+          "verticalPadding": "{4u}",
+          "itemSpacing": "{3u}"
         },
         "type": "composition"
       },
-      "warning": {
+      "today-container": {
         "value": {
-          "fill": "{bg.notice.warning}",
-          "verticalPadding": "{5u}",
-          "horizontalPadding": "{5u}",
-          "itemSpacing": "{7u}"
+          "horizontalPadding": "{12u}",
+          "verticalPadding": "{12u}",
+          "itemSpacing": "{1u}",
+          "borderRadius": "9999",
+          "fill": "{bg.body.primary}"
         },
         "type": "composition"
       },
-      "medium-priority": {
+      "today-container-wrapper": {
         "value": {
-          "fill": "{bg.notice.medium-priority}",
-          "verticalPadding": "{5u}",
-          "horizontalPadding": "{5u}",
-          "itemSpacing": "{7u}"
+          "itemSpacing": "0"
         },
         "type": "composition"
       },
-      "status": {
+      "details": {
+        "divider-container": {
+          "value": {
+            "horizontalPadding": "0",
+            "verticalPadding": "{2u}"
+          },
+          "type": "composition"
+        },
+        "divider": {
+          "value": {
+            "width": "{base}*6",
+            "borderWidth": "1.5",
+            "borderColor": "{fg.text.primary}"
+          },
+          "type": "composition"
+        },
+        "container": {
+          "value": {
+            "verticalPadding": "0",
+            "horizontalPadding": "0",
+            "itemSpacing": "{1u}"
+          },
+          "type": "composition"
+        },
+        "wrapper": {
+          "value": {
+            "itemSpacing": "{2u}"
+          },
+          "type": "composition"
+        }
+      },
+      "content-wrapper": {
         "value": {
-          "fill": "{bg.notice.status}",
+          "verticalPadding": "{6u}",
+          "horizontalPadding": "{6u}"
+        },
+        "type": "composition"
+      },
+      "overall-container": {
+        "value": {
           "verticalPadding": "{5u}",
           "horizontalPadding": "{5u}",
-          "itemSpacing": "{7u}"
+          "fill": "{bg.panel.standard.default}"
         },
         "type": "composition"
       }
+    }
+  },
+  "misc": {
+    "divider": {
+      "value": {
+        "borderColor": "{fg.divider.primary}",
+        "borderWidth": "{bw.thin}"
+      },
+      "type": "composition"
     }
   }
 }
