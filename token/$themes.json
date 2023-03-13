@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "382dc6a1de28110099e7525b9559d88e084860e3",
+    "name": "Light / Dektop",
+    "selectedTokenSets": {
+      "spatial/device/desktop": "enabled",
+      "spatial/spacing": "enabled",
+      "spatial/type_primitives": "enabled",
+      "spatial/type_styles": "enabled",
+      "colour/base": "enabled",
+      "colour/semantic": "enabled",
+      "border": "enabled",
+      "sites/dublin_city_dot_ie": "enabled",
+      "components": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]

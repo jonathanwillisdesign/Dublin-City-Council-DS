@@ -41,5 +41,21 @@
         }
       }
     }
+  },
+  "icon": {
+    "primary": {
+      "stroke": {
+        "value": {
+          "border": "{icon.border.primary}"
+        },
+        "type": "composition"
+      },
+      "fill": {
+        "value": {
+          "fill": "{fg.text.primary}"
+        },
+        "type": "composition"
+      }
+    }
   }
 }
