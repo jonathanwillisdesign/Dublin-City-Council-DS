@@ -269,6 +269,51 @@
           },
           "type": "composition"
         }
+      },
+      "content": {
+        "wrapper": {
+          "value": {
+            "verticalPadding": "0",
+            "horizontalPadding": "0",
+            "itemSpacing": "{2u}"
+          },
+          "type": "composition"
+        },
+        "wrapper-with-divider": {
+          "value": {
+            "verticalPadding": "0",
+            "horizontalPadding": "0",
+            "itemSpacing": "{4u}"
+          },
+          "type": "composition"
+        },
+        "divider": {
+          "value": {
+            "borderColor": "{fg.text.inverted}",
+            "borderWidth": "{icon-stoke.small}"
+          },
+          "type": "composition"
+        },
+        "icon-stoke": {
+          "value": {
+            "borderWidth": "{icon-stoke.small}",
+            "borderColor": "{fg.text.inverted}"
+          },
+          "type": "composition"
+        },
+        "text": {
+          "value": {
+            "typography": "{body.standard.bold}",
+            "fill": "{fg.text.inverted}"
+          },
+          "type": "composition"
+        },
+        "icon-fill": {
+          "value": {
+            "fill": "{fg.text.inverted}"
+          },
+          "type": "composition"
+        }
       }
     }
   }

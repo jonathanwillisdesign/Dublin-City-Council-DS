@@ -164,15 +164,15 @@
       "default": {
         "value": {
           "color": "{bg.button.primary.default}",
-          "width": "{bw.thin}",
+          "width": "0",
           "style": "solid"
         },
         "type": "border"
       },
-      "hover": {
+      "focus": {
         "value": {
-          "color": "{bg.button.primary.hover}",
-          "width": "{bw.med}",
+          "color": "{blue.4}",
+          "width": "1.5",
           "style": "solid"
         },
         "type": "border"
