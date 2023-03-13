@@ -253,9 +253,7 @@
             "horizontalPadding": "{5u}",
             "itemSpacing": "{2u}",
             "fill": "{bg.button.primary.default}",
-            "boxShadow": "{shadow.none}",
-            "borderColor": "rgba({bg.button.primary.default},0)",
-            "borderWidth": "{focus}"
+            "boxShadow": "{shadow.none}"
           },
           "type": "composition"
         },
@@ -373,6 +371,59 @@
         "icon-fill": {
           "value": {
             "fill": "{fg.text.primary}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "tertiary": {
+      "bg": {
+        "default": {
+          "value": {
+            "verticalPadding": "{base}*3.5",
+            "horizontalPadding": "{5u}",
+            "itemSpacing": "{2u}",
+            "fill": "{bg.button.tertiary.default}",
+            "boxShadow": "{shadow.none}"
+          },
+          "type": "composition"
+        },
+        "hover": {
+          "value": {
+            "verticalPadding": "{base}*3.5",
+            "horizontalPadding": "{5u}",
+            "itemSpacing": "{2u}",
+            "fill": "{bg.button.tertiary.hover}",
+            "boxShadow": "{shadow.primary}"
+          },
+          "type": "composition"
+        }
+      },
+      "fg": {
+        "divider": {
+          "value": {
+            "borderColor": "{fg.text.inverted}",
+            "borderWidth": "{bw.thin}"
+          },
+          "type": "composition"
+        },
+        "icon-stoke": {
+          "value": {
+            "borderWidth": "{icon-stoke.small}",
+            "borderColor": "{fg.text.inverted}"
+          },
+          "type": "composition"
+        },
+        "text": {
+          "value": {
+            "typography": "{body.standard.bold}",
+            "fill": "{fg.text.inverted}"
+          },
+          "type": "composition"
+        },
+        "icon-fill": {
+          "value": {
+            "fill": "{fg.text.inverted}"
           },
           "type": "composition"
         }

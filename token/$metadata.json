@@ -9,8 +9,8 @@
     "colour/base",
     "colour/semantic",
     "border",
+    "sites/dublin_city_dot_ie",
     "effects",
-    "components",
-    "sites/dublin_city_dot_ie"
+    "components"
   ]
 }

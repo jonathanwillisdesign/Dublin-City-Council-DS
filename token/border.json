@@ -195,6 +195,24 @@
         },
         "type": "border"
       }
+    },
+    "tertiary": {
+      "default": {
+        "value": {
+          "color": "{bg.button.tertiary.default}",
+          "width": "0",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "focus": {
+        "value": {
+          "color": "{gray.3}",
+          "width": "1.5",
+          "style": "solid"
+        },
+        "type": "border"
+      }
     }
   },
   "focus": {
