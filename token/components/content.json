@@ -1,0 +1,26 @@
+{
+  "table": {
+    "cell-wrap": {
+      "dark": {
+        "value": {
+          "verticalPadding": "{4u}",
+          "horizontalPadding": "{4u}",
+          "fill": "{bg.panel.standard.hover}",
+          "borderColor": "{fg.text.primary}",
+          "borderWidth": "{bw.thin}"
+        },
+        "type": "composition"
+      },
+      "light": {
+        "value": {
+          "verticalPadding": "{4u}",
+          "horizontalPadding": "{4u}",
+          "fill": "{bg.body.primary}",
+          "borderColor": "{fg.text.primary}",
+          "borderWidth": "{bw.thin}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}
