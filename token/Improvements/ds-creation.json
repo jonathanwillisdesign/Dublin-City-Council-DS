@@ -1,0 +1,41 @@
+{
+  "size-radio-button": {
+    "circumfrence": {
+      "value": "{base}*6",
+      "type": "sizing"
+    }
+  },
+  "label": {
+    "default": {
+      "value": {
+        "fontFamily": "{ff-main}",
+        "fontWeight": "{fw-base}",
+        "lineHeight": "{form-height}",
+        "fontSize": "{fs-md}",
+        "textDecoration": "{default}"
+      },
+      "type": "typography",
+      "description": "Minor Adjustment to line height"
+    }
+  },
+  "toggle": {
+    "componenet-wrapper": {
+      "value": {
+        "height": "{form-height}"
+      },
+      "type": "composition"
+    }
+  },
+  "form-height": {
+    "value": "{base}*7",
+    "type": "dimension"
+  },
+  "radio": {
+    "component-wrapper": {
+      "value": {
+        "height": "{form-height}"
+      },
+      "type": "composition"
+    }
+  }
+}

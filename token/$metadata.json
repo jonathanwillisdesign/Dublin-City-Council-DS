@@ -14,7 +14,7 @@
     "components/content",
     "components/form",
     "sites/dublin_city_dot_ie",
-    "Improvements/main",
-    "Improvements/small-radio"
+    "Improvements/citizen-hub",
+    "Improvements/ds-creation"
   ]
 }

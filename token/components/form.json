@@ -54,8 +54,14 @@
     },
     "label": {
       "value": {
-        "typography": "{body.standard.default}",
+        "typography": "{label.default}",
         "fill": "{fg.text.primary}"
+      },
+      "type": "composition"
+    },
+    "component-wrapper": {
+      "value": {
+        "height": "{size-radio-button.circumfrence}"
       },
       "type": "composition"
     }
@@ -69,7 +75,7 @@
     },
     "label": {
       "value": {
-        "typography": "{body.standard.default}",
+        "typography": "{label.default}",
         "fill": "{fg.text.primary}"
       },
       "type": "composition"
@@ -129,6 +135,12 @@
         "width": "{size-toggle.indicator.circumfrence}",
         "height": "{size-toggle.indicator.circumfrence}",
         "fill": "{fg.text.inverted}"
+      },
+      "type": "composition"
+    },
+    "componenet-wrapper": {
+      "value": {
+        "height": "{size-toggle.wrapper.height}"
       },
       "type": "composition"
     }

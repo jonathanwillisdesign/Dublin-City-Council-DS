@@ -130,5 +130,17 @@
         "type": "typography"
       }
     }
+  },
+  "label": {
+    "default": {
+      "value": {
+        "fontFamily": "{ff-main}",
+        "fontWeight": "{fw-base}",
+        "lineHeight": "{lh-body.md}",
+        "fontSize": "{fs-md}",
+        "textDecoration": "{default}"
+      },
+      "type": "typography"
+    }
   }
 }

@@ -21,6 +21,10 @@
     "small": {
       "value": "1.5",
       "type": "borderWidth"
+    },
+    "Xsmall": {
+      "value": "1.25",
+      "type": "borderWidth"
     }
   },
   "icon": {
@@ -152,6 +156,72 @@
           "value": {
             "color": "{fg.notice.status}",
             "width": "{icon-stoke.small}",
+            "style": "solid"
+          },
+          "type": "border"
+        }
+      },
+      "Xsmall": {
+        "primary": {
+          "value": {
+            "color": "{fg.text.primary}",
+            "width": "{icon-stoke.Xsmall}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "secondary": {
+          "value": {
+            "color": "{fg.text.secondary}",
+            "width": "{icon-stoke.Xsmall}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "inverted": {
+          "value": {
+            "color": "{fg.text.inverted}",
+            "width": "{icon-stoke.Xsmall}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "error": {
+          "value": {
+            "color": "{fg.notice.error}",
+            "width": "{icon-stoke.Xsmall}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "high-priority": {
+          "value": {
+            "color": "{fg.notice.high-priority}",
+            "width": "{icon-stoke.Xsmall}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "warning": {
+          "value": {
+            "color": "{fg.notice.warning}",
+            "width": "{icon-stoke.Xsmall}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "medium-priority": {
+          "value": {
+            "color": "{fg.notice.medium-priority}",
+            "width": "{icon-stoke.Xsmall}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "status": {
+          "value": {
+            "color": "{fg.notice.status}",
+            "width": "{icon-stoke.Xsmall}",
             "style": "solid"
           },
           "type": "border"
