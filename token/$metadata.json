@@ -14,6 +14,7 @@
     "components/content",
     "components/form",
     "sites/dublin_city_dot_ie",
-    "Improvements/mar23"
+    "Improvements/main",
+    "Improvements/small-radio"
   ]
 }

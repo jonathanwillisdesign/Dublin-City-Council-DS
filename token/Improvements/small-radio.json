@@ -1,0 +1,8 @@
+{
+  "size-radio-button": {
+    "circumfrence": {
+      "value": "{base}*6",
+      "type": "sizing"
+    }
+  }
+}

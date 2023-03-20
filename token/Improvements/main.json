@@ -1,0 +1,32 @@
+{
+  "fg": {
+    "form-elem": {
+      "active": {
+        "value": "{undocumented.blue.B}",
+        "type": "color"
+      }
+    }
+  },
+  "size-radio-button": {
+    "circumfrence": {
+      "value": "{base}*7.5",
+      "type": "sizing"
+    }
+  },
+  "size-toggle": {
+    "indicator": {
+      "circumfrence": {
+        "value": "{base}*4.5",
+        "type": "sizing"
+      }
+    }
+  },
+  "toggle": {
+    "container": {
+      "padding": {
+        "value": "3",
+        "type": "spacing"
+      }
+    }
+  }
+}

@@ -78,8 +78,8 @@
       "inactive": {
         "value": {
           "width": "({size-toggle.indicator.circumfrence}*2)+2*{base}",
-          "verticalPadding": "{base}/2",
-          "horizontalPadding": "{base}/2",
+          "verticalPadding": "{toggle.container.padding}",
+          "horizontalPadding": "{toggle.container.padding}",
           "fill": "{fg.form-elem.inactive}",
           "borderRadius": "9999",
           "boxShadow": "{shadow.none}"
@@ -89,8 +89,8 @@
       "active": {
         "value": {
           "width": "({size-toggle.indicator.circumfrence}*2)+2*{base}",
-          "verticalPadding": "{base}/2",
-          "horizontalPadding": "{base}/2",
+          "verticalPadding": "{toggle.container.padding}",
+          "horizontalPadding": "{toggle.container.padding}",
           "fill": "{fg.form-elem.active}",
           "borderRadius": "9999",
           "boxShadow": "{shadow.none}"
@@ -100,8 +100,8 @@
       "active-hover": {
         "value": {
           "width": "({size-toggle.indicator.circumfrence}*2)+2*{base}",
-          "verticalPadding": "{base}/2",
-          "horizontalPadding": "{base}/2",
+          "verticalPadding": "{toggle.container.padding}",
+          "horizontalPadding": "{toggle.container.padding}",
           "fill": "{fg.form-elem.active}",
           "borderRadius": "9999",
           "boxShadow": "{shadow.primary}"
@@ -111,13 +111,17 @@
       "inactive-hover": {
         "value": {
           "width": "({size-toggle.indicator.circumfrence}*2)+2*{base}",
-          "verticalPadding": "{base}/2",
-          "horizontalPadding": "{base}/2",
+          "verticalPadding": "{toggle.container.padding}",
+          "horizontalPadding": "{toggle.container.padding}",
           "fill": "{fg.form-elem.inactive}",
           "borderRadius": "9999",
           "boxShadow": "{shadow.primary}"
         },
         "type": "composition"
+      },
+      "padding": {
+        "value": "{base}/2",
+        "type": "spacing"
       }
     },
     "indicator": {
