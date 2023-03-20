@@ -437,7 +437,7 @@
             "itemSpacing": "{2u}",
             "fill": "{bg.button.secondary.hover}",
             "boxShadow": "{shadow.primary}",
-            "border": "{button.primary.default}"
+            "border": "{button.border.primary.default}"
           },
           "type": "composition"
         }

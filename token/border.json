@@ -160,7 +160,69 @@
     }
   },
   "button": {
-    "primary": {
+    "border": {
+      "primary": {
+        "default": {
+          "value": {
+            "color": "{bg.button.primary.default}",
+            "width": "0",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "focus": {
+          "value": {
+            "color": "{blue.4}",
+            "width": "1.5",
+            "style": "solid"
+          },
+          "type": "border"
+        }
+      },
+      "secondary": {
+        "focus": {
+          "value": {
+            "color": "{blue.4}",
+            "width": "1.5",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "default": {
+          "value": {
+            "color": "{bg.button.secondary.default}",
+            "width": "0",
+            "style": "solid"
+          },
+          "type": "border"
+        }
+      },
+      "tertiary": {
+        "default": {
+          "value": {
+            "color": "{bg.button.tertiary.default}",
+            "width": "0",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "focus": {
+          "value": {
+            "color": "{gray.3}",
+            "width": "1.5",
+            "style": "solid"
+          },
+          "type": "border"
+        }
+      }
+    }
+  },
+  "focus": {
+    "value": "1.5",
+    "type": "borderWidth"
+  },
+  "radio": {
+    "border": {
       "default": {
         "value": {
           "color": "{bg.button.primary.default}",
@@ -177,46 +239,28 @@
         },
         "type": "border"
       }
-    },
-    "secondary": {
-      "default": {
-        "value": {
-          "color": "{bg.button.secondary.default}",
-          "width": "0",
-          "style": "solid"
-        },
-        "type": "border"
-      },
-      "focus": {
-        "value": {
-          "color": "{blue.4}",
-          "width": "1.5",
-          "style": "solid"
-        },
-        "type": "border"
-      }
-    },
-    "tertiary": {
-      "default": {
-        "value": {
-          "color": "{bg.button.tertiary.default}",
-          "width": "0",
-          "style": "solid"
-        },
-        "type": "border"
-      },
-      "focus": {
-        "value": {
-          "color": "{gray.3}",
-          "width": "1.5",
-          "style": "solid"
-        },
-        "type": "border"
-      }
     }
   },
-  "focus": {
-    "value": "1.5",
-    "type": "borderWidth"
+  "toggle": {
+    "border": {
+      "border": {
+        "default": {
+          "value": {
+            "color": "{bg.button.primary.default}",
+            "width": "0",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "focus": {
+          "value": {
+            "color": "{blue.4}",
+            "width": "1.5",
+            "style": "solid"
+          },
+          "type": "border"
+        }
+      }
+    }
   }
 }

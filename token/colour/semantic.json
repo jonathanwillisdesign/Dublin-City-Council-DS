@@ -63,8 +63,8 @@
         "description": "Colour for bullet points"
       }
     },
-    "border": {
-      "default": {
+    "form-elem": {
+      "border": {
         "value": "{undocumented.gray.A}",
         "type": "color",
         "description": "Used in Form Elements (e.g. radio buttons inactive state)"
@@ -73,6 +73,10 @@
         "value": "{blue.1}",
         "type": "color",
         "description": "Used in Form Elements (e.g. radio buttons active state)"
+      },
+      "inactive": {
+        "value": "{gray.3}",
+        "type": "color"
       }
     }
   },

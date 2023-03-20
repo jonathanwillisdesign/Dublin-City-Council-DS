@@ -3,10 +3,10 @@
     "button": {
       "inactive": {
         "value": {
-          "width": "{base}*5",
-          "height": "{base}*5",
+          "width": "{size-radio-button.circumfrence}",
+          "height": "{size-radio-button.circumfrence}",
           "fill": "{fg.text.inverted}",
-          "borderColor": "{fg.border.default}",
+          "borderColor": "{fg.form-elem.border}",
           "borderWidth": "{bw.med}",
           "boxShadow": "{shadow.none}"
         },
@@ -14,10 +14,10 @@
       },
       "inactive-hover": {
         "value": {
-          "width": "{base}*5",
-          "height": "{base}*5",
+          "width": "{size-radio-button.circumfrence}",
+          "height": "{size-radio-button.circumfrence}",
           "fill": "{fg.text.inverted}",
-          "borderColor": "{fg.border.default}",
+          "borderColor": "{fg.form-elem.border}",
           "borderWidth": "{bw.med}",
           "boxShadow": "{shadow.primary}"
         },
@@ -25,10 +25,10 @@
       },
       "active": {
         "value": {
-          "width": "{base}*5",
-          "height": "{base}*5",
+          "width": "{size-radio-button.circumfrence}",
+          "height": "{size-radio-button.circumfrence}",
           "fill": "{fg.text.inverted}",
-          "borderColor": "{fg.border.active}",
+          "borderColor": "{fg.form-elem.active}",
           "borderWidth": "{bw.thick}",
           "boxShadow": "{shadow.none}"
         },
@@ -36,10 +36,10 @@
       },
       "active-hover": {
         "value": {
-          "width": "{base}*5",
-          "height": "{base}*5",
-          "fill": "{fg.border.active}",
-          "borderColor": "{blue.1}",
+          "width": "{size-radio-button.circumfrence}",
+          "height": "{size-radio-button.circumfrence}",
+          "fill": "{fg.text.inverted}",
+          "borderColor": "{fg.form-elem.active}",
           "borderWidth": "{bw.thick}",
           "boxShadow": "{shadow.primary}"
         },
@@ -58,6 +58,99 @@
         "fill": "{fg.text.primary}"
       },
       "type": "composition"
+    }
+  },
+  "toggle": {
+    "wrapper": {
+      "value": {
+        "itemSpacing": "{4u}"
+      },
+      "type": "composition"
+    },
+    "label": {
+      "value": {
+        "typography": "{body.standard.default}",
+        "fill": "{fg.text.primary}"
+      },
+      "type": "composition"
+    },
+    "container": {
+      "inactive": {
+        "value": {
+          "width": "({size-toggle.indicator.circumfrence}*2)+2*{base}",
+          "verticalPadding": "{base}/2",
+          "horizontalPadding": "{base}/2",
+          "fill": "{fg.form-elem.inactive}",
+          "borderRadius": "9999",
+          "boxShadow": "{shadow.none}"
+        },
+        "type": "composition"
+      },
+      "active": {
+        "value": {
+          "width": "({size-toggle.indicator.circumfrence}*2)+2*{base}",
+          "verticalPadding": "{base}/2",
+          "horizontalPadding": "{base}/2",
+          "fill": "{fg.form-elem.active}",
+          "borderRadius": "9999",
+          "boxShadow": "{shadow.none}"
+        },
+        "type": "composition"
+      },
+      "active-hover": {
+        "value": {
+          "width": "({size-toggle.indicator.circumfrence}*2)+2*{base}",
+          "verticalPadding": "{base}/2",
+          "horizontalPadding": "{base}/2",
+          "fill": "{fg.form-elem.active}",
+          "borderRadius": "9999",
+          "boxShadow": "{shadow.primary}"
+        },
+        "type": "composition"
+      },
+      "inactive-hover": {
+        "value": {
+          "width": "({size-toggle.indicator.circumfrence}*2)+2*{base}",
+          "verticalPadding": "{base}/2",
+          "horizontalPadding": "{base}/2",
+          "fill": "{fg.form-elem.inactive}",
+          "borderRadius": "9999",
+          "boxShadow": "{shadow.primary}"
+        },
+        "type": "composition"
+      }
+    },
+    "indicator": {
+      "value": {
+        "width": "{size-toggle.indicator.circumfrence}",
+        "height": "{size-toggle.indicator.circumfrence}",
+        "fill": "{fg.text.inverted}"
+      },
+      "type": "composition"
+    }
+  },
+  "size-radio-button": {
+    "circumfrence": {
+      "value": "{base}*5",
+      "type": "sizing"
+    }
+  },
+  "size-toggle": {
+    "wrapper": {
+      "width": {
+        "value": "{base}*12",
+        "type": "sizing"
+      },
+      "height": {
+        "value": "{base}*6",
+        "type": "sizing"
+      }
+    },
+    "indicator": {
+      "circumfrence": {
+        "value": "{base}*5",
+        "type": "sizing"
+      }
     }
   }
 }
