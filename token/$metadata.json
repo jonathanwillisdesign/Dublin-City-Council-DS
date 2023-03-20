@@ -12,6 +12,7 @@
     "sites/dublin_city_dot_ie",
     "effects",
     "components",
-    "components/content"
+    "components/content",
+    "components/form"
   ]
 }

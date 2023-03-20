@@ -1,0 +1,26 @@
+{
+  "radio": {
+    "button": {
+      "inactive": {
+        "value": {
+          "width": "{base}*7.5",
+          "height": "{base}*7.5",
+          "fill": "{fg.text.inverted}",
+          "borderColor": "{fg.border.default}",
+          "borderWidth": "{bw.med}"
+        },
+        "type": "composition"
+      },
+      "active": {
+        "value": {
+          "width": "{base}*7.5",
+          "height": "{base}*7.5",
+          "fill": "{fg.text.inverted}",
+          "borderColor": "{fg.text.link}",
+          "borderWidth": "{bw.thick}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

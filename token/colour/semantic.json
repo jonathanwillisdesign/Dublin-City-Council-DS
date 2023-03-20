@@ -62,6 +62,18 @@
         "type": "color",
         "description": "Colour for bullet points"
       }
+    },
+    "border": {
+      "default": {
+        "value": "{undocumented.gray.A}",
+        "type": "color",
+        "description": "Used in Form Elements (e.g. radio buttons inactive state)"
+      },
+      "active": {
+        "value": "{undocumented.blue.B}",
+        "type": "color",
+        "description": "Used in Form Elements (e.g. radio buttons active state)"
+      }
     }
   },
   "bg": {
