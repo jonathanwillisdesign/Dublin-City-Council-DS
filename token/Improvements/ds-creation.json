@@ -37,5 +37,13 @@
       },
       "type": "composition"
     }
+  },
+  "checkbox": {
+    "componenet-wrapper": {
+      "value": {
+        "height": "{form-height}"
+      },
+      "type": "composition"
+    }
   }
 }

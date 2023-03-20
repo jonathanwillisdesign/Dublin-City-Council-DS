@@ -28,5 +28,15 @@
         "type": "spacing"
       }
     }
+  },
+  "size-checkbox": {
+    "width": {
+      "value": "{base}*7.5",
+      "type": "sizing"
+    },
+    "icon": {
+      "value": "{base}*6",
+      "type": "sizing"
+    }
   }
 }

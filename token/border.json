@@ -25,6 +25,10 @@
     "Xsmall": {
       "value": "1.25",
       "type": "borderWidth"
+    },
+    "thick": {
+      "value": "3",
+      "type": "borderWidth"
     }
   },
   "icon": {
@@ -226,6 +230,72 @@
           },
           "type": "border"
         }
+      },
+      "thick": {
+        "primary": {
+          "value": {
+            "color": "{fg.text.primary}",
+            "width": "{icon-stoke.thick}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "secondary": {
+          "value": {
+            "color": "{fg.text.secondary}",
+            "width": "{icon-stoke.defualt}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "inverted": {
+          "value": {
+            "color": "{fg.text.inverted}",
+            "width": "{icon-stoke.defualt}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "error": {
+          "value": {
+            "color": "{fg.notice.error}",
+            "width": "{icon-stoke.defualt}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "high-priority": {
+          "value": {
+            "color": "{fg.notice.high-priority}",
+            "width": "{icon-stoke.defualt}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "warning": {
+          "value": {
+            "color": "{fg.notice.warning}",
+            "width": "{icon-stoke.defualt}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "medium-priority": {
+          "value": {
+            "color": "{fg.notice.medium-priority}",
+            "width": "{icon-stoke.defualt}",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "status": {
+          "value": {
+            "color": "{fg.notice.status}",
+            "width": "{icon-stoke.defualt}",
+            "style": "solid"
+          },
+          "type": "border"
+        }
       }
     }
   },
@@ -313,23 +383,41 @@
   },
   "toggle": {
     "border": {
-      "border": {
-        "default": {
-          "value": {
-            "color": "{bg.button.primary.default}",
-            "width": "0",
-            "style": "solid"
-          },
-          "type": "border"
+      "default": {
+        "value": {
+          "color": "{bg.button.primary.default}",
+          "width": "0",
+          "style": "solid"
         },
-        "focus": {
-          "value": {
-            "color": "{blue.4}",
-            "width": "1.5",
-            "style": "solid"
-          },
-          "type": "border"
-        }
+        "type": "border"
+      },
+      "focus": {
+        "value": {
+          "color": "{blue.4}",
+          "width": "1.5",
+          "style": "solid"
+        },
+        "type": "border"
+      }
+    }
+  },
+  "checkbox": {
+    "border": {
+      "default": {
+        "value": {
+          "color": "{bg.button.primary.default}",
+          "width": "0",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "focus": {
+        "value": {
+          "color": "{blue.4}",
+          "width": "{bw.thin}",
+          "style": "solid"
+        },
+        "type": "border"
       }
     }
   }
