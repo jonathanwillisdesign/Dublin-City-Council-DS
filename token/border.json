@@ -291,7 +291,7 @@
         "status": {
           "value": {
             "color": "{fg.notice.status}",
-            "width": "{icon-stoke.defualt}",
+            "width": "{icon-stoke.thick}",
             "style": "solid"
           },
           "type": "border"
@@ -417,6 +417,16 @@
           "width": "{bw.thin}",
           "style": "solid"
         },
+        "type": "border"
+      }
+    },
+    "icon": {
+      "check": {
+        "value": "{icon.border.default.inverted}",
+        "type": "border"
+      },
+      "X": {
+        "value": "{icon.border.default.primary}",
         "type": "border"
       }
     }

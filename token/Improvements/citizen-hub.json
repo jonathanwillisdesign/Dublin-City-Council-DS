@@ -38,5 +38,21 @@
       "value": "{base}*6",
       "type": "sizing"
     }
+  },
+  "checkbox": {
+    "icon": {
+      "check": {
+        "value": {
+          "border": "{icon.border.thick.inverted}"
+        },
+        "type": "composition"
+      },
+      "X": {
+        "value": {
+          "border": "{icon.border.thick.primary}"
+        },
+        "type": "composition"
+      }
+    }
   }
 }

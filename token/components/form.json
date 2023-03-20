@@ -278,12 +278,26 @@
         }
       }
     },
-    "icon": {
+    "icon-wrapper": {
       "value": {
         "width": "{size-checkbox.icon}",
         "height": "{size-checkbox.icon}"
       },
       "type": "composition"
+    },
+    "icon": {
+      "check": {
+        "value": {
+          "border": "{icon.border.default.inverted}"
+        },
+        "type": "composition"
+      },
+      "X": {
+        "value": {
+          "border": "{icon.border.default.primary}"
+        },
+        "type": "composition"
+      }
     }
   },
   "size-checkbox": {
