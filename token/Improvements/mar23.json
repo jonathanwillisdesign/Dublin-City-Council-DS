@@ -3,8 +3,8 @@
     "button": {
       "inactive": {
         "value": {
-          "width": "{base}*5",
-          "height": "{base}*5",
+          "width": "{base}*7.5",
+          "height": "{base}*7.5",
           "fill": "{fg.text.inverted}",
           "borderColor": "{fg.border.default}",
           "borderWidth": "{bw.med}",
@@ -14,8 +14,8 @@
       },
       "inactive-hover": {
         "value": {
-          "width": "{base}*5",
-          "height": "{base}*5",
+          "width": "{base}*7.5",
+          "height": "{base}*7.5",
           "fill": "{fg.text.inverted}",
           "borderColor": "{fg.border.default}",
           "borderWidth": "{bw.med}",
@@ -25,10 +25,10 @@
       },
       "active": {
         "value": {
-          "width": "{base}*5",
-          "height": "{base}*5",
+          "width": "{base}*7.5",
+          "height": "{base}*7.5",
           "fill": "{fg.text.inverted}",
-          "borderColor": "{fg.border.active}",
+          "borderColor": "{fg.text.link}",
           "borderWidth": "{bw.thick}",
           "boxShadow": "{shadow.none}"
         },
@@ -36,10 +36,10 @@
       },
       "active-hover": {
         "value": {
-          "width": "{base}*5",
-          "height": "{base}*5",
-          "fill": "{fg.border.active}",
-          "borderColor": "{blue.1}",
+          "width": "{base}*7.5",
+          "height": "{base}*7.5",
+          "fill": "{fg.text.inverted}",
+          "borderColor": "{fg.text.link}",
           "borderWidth": "{bw.thick}",
           "boxShadow": "{shadow.primary}"
         },
@@ -58,6 +58,14 @@
         "fill": "{fg.text.primary}"
       },
       "type": "composition"
+    }
+  },
+  "fg": {
+    "border": {
+      "active": {
+        "value": "{undocumented.blue.B}",
+        "type": "color"
+      }
     }
   }
 }
