@@ -200,6 +200,18 @@
         "type": "color",
         "description": "⚠️ Consider bringing into core system - documnted as gray 5 but sits outside scale. Used on sidebars outside of main body."
       }
+    },
+    "tab": {
+      "active": {
+        "value": "{undocumented.green.A}",
+        "type": "color",
+        "description": "Active Tab Background"
+      },
+      "inactive": {
+        "value": "{undocumented.gray.C}",
+        "type": "color",
+        "description": "Inactive Tab Background"
+      }
     }
   }
 }

@@ -133,6 +133,11 @@
         "value": "#D9D9D9",
         "type": "color",
         "description": "❓ Used in bullet for bullet points"
+      },
+      "C": {
+        "value": "#D3D3D3",
+        "type": "color",
+        "description": "❓Undocumneted BG color for inactive tabs"
       }
     },
     "red": {
@@ -147,6 +152,13 @@
         "value": "#E4A31A",
         "type": "color",
         "description": "❓Used as fg color on notices"
+      }
+    },
+    "green": {
+      "A": {
+        "value": "#008000",
+        "type": "color",
+        "description": "❓Used as bg color for active tabs"
       }
     }
   }
