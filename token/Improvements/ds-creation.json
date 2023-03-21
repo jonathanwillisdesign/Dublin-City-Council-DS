@@ -100,5 +100,15 @@
   "br-checkbox": {
     "value": "0",
     "type": "borderRadius"
+  },
+  "size-checkbox": {
+    "width": {
+      "value": "{form-height}",
+      "type": "sizing"
+    },
+    "icon": {
+      "value": "{base}*5",
+      "type": "sizing"
+    }
   }
 }

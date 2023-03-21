@@ -39,24 +39,24 @@
       "type": "sizing"
     }
   },
-  "checkbox": {
-    "icon": {
-      "check": {
-        "value": {
-          "border": "{icon.border.thick.inverted}"
-        },
-        "type": "composition"
-      },
-      "X": {
-        "value": {
-          "border": "{icon.border.thick.primary}"
-        },
-        "type": "composition"
-      }
-    }
-  },
   "br-checkbox": {
     "value": "0",
     "type": "borderRadius"
+  },
+  "bw-checkbox-icon-stroke": {
+    "value": "{icon-stoke.thick}",
+    "type": "borderWidth"
+  },
+  "col-checkbox": {
+    "container": {
+      "active": {
+        "value": "{fg.form-elem.active}",
+        "type": "color"
+      },
+      "active-hover": {
+        "value": "{fg.form-elem.active}",
+        "type": "color"
+      }
+    }
   }
 }

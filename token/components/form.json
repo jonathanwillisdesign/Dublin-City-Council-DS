@@ -182,7 +182,7 @@
           "value": {
             "height": "{size-checkbox.width}",
             "width": "{size-checkbox.width}",
-            "fill": "#056AF9",
+            "fill": "{col-checkbox.container.active}",
             "borderWidth": "0",
             "borderRadius": "{br-checkbox}",
             "borderColor": "{fg.form-elem.border}",
@@ -194,7 +194,7 @@
           "value": {
             "height": "{size-checkbox.width}",
             "width": "{size-checkbox.width}",
-            "fill": "#0452BC",
+            "fill": "{col-checkbox.container.active-hover}",
             "borderWidth": "0",
             "borderRadius": "{br-checkbox}",
             "borderColor": "{fg.form-elem.border}",
@@ -206,7 +206,7 @@
           "value": {
             "height": "{size-checkbox.width}",
             "width": "{size-checkbox.width}",
-            "fill": "{fg.text.inverted}",
+            "fill": "{col-checkbox.container.inactive}",
             "borderWidth": "{bw.thin}",
             "borderRadius": "{br-checkbox}",
             "borderColor": "{fg.form-elem.border}",
@@ -218,7 +218,7 @@
           "value": {
             "height": "{size-checkbox.width}",
             "width": "{size-checkbox.width}",
-            "fill": "{fg.text.inverted}",
+            "fill": "{col-checkbox.container.inactive-hover}",
             "borderWidth": "{bw.thin}",
             "borderRadius": "{br-checkbox}",
             "borderColor": "{fg.form-elem.border}",
@@ -232,7 +232,7 @@
           "value": {
             "height": "{size-checkbox.width}",
             "width": "{size-checkbox.width}",
-            "fill": "rgba({fg.text.inverted},0)",
+            "fill": "{col-checkbox.container.transparent}",
             "borderWidth": "0",
             "borderRadius": "{br-checkbox}",
             "borderColor": "{fg.form-elem.border}",
@@ -244,7 +244,7 @@
           "value": {
             "height": "{size-checkbox.width}",
             "width": "{size-checkbox.width}",
-            "fill": "{fg.text.inverted}",
+            "fill": "{col-checkbox.container.transparent-hover}",
             "borderWidth": "0",
             "borderRadius": "{br-checkbox}",
             "borderColor": "{fg.form-elem.border}",
@@ -256,7 +256,7 @@
           "value": {
             "height": "{size-checkbox.width}",
             "width": "{size-checkbox.width}",
-            "fill": "{fg.text.inverted}",
+            "fill": "{col-checkbox.container.inactive}",
             "borderWidth": "{bw.thin}",
             "borderRadius": "{br-checkbox}",
             "borderColor": "{fg.form-elem.border}",
@@ -268,7 +268,7 @@
           "value": {
             "height": "{size-checkbox.width}",
             "width": "{size-checkbox.width}",
-            "fill": "{fg.text.inverted}",
+            "fill": "{col-checkbox.container.inactive-hover}",
             "borderWidth": "{bw.thin}",
             "borderRadius": "{br-checkbox}",
             "borderColor": "{fg.form-elem.border}",
@@ -284,20 +284,6 @@
         "height": "{size-checkbox.icon}"
       },
       "type": "composition"
-    },
-    "icon": {
-      "check": {
-        "value": {
-          "border": "{icon.border.default.inverted}"
-        },
-        "type": "composition"
-      },
-      "X": {
-        "value": {
-          "border": "{icon.border.default.primary}"
-        },
-        "type": "composition"
-      }
     }
   },
   "size-checkbox": {
@@ -456,5 +442,47 @@
       "type": "dropShadow"
     },
     "type": "boxShadow"
+  },
+  "col-checkbox": {
+    "icon": {
+      "X": {
+        "value": "{fg.text.primary}",
+        "type": "color"
+      },
+      "check": {
+        "value": "{fg.text.inverted}",
+        "type": "color"
+      }
+    },
+    "container": {
+      "active": {
+        "value": "#056AF9",
+        "type": "color"
+      },
+      "active-hover": {
+        "value": "#0452BC",
+        "type": "color"
+      },
+      "inactive": {
+        "value": "{fg.text.inverted}",
+        "type": "color"
+      },
+      "inactive-hover": {
+        "value": "{fg.form-elem.inactive}",
+        "type": "color"
+      },
+      "transparent": {
+        "value": "rgba({fg.text.inverted},0)",
+        "type": "color"
+      },
+      "transparent-hover": {
+        "value": "rgba({fg.text.inverted},0.5)",
+        "type": "color"
+      }
+    }
+  },
+  "bw-checkbox-icon-stroke": {
+    "value": "{icon-stoke.defualt}",
+    "type": "borderWidth"
   }
 }

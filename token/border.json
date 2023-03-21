@@ -313,25 +313,25 @@
         "focus": {
           "value": {
             "color": "{blue.4}",
-            "width": "1.5",
+            "width": "{focus}",
             "style": "solid"
           },
           "type": "border"
         }
       },
       "secondary": {
-        "focus": {
-          "value": {
-            "color": "{blue.4}",
-            "width": "1.5",
-            "style": "solid"
-          },
-          "type": "border"
-        },
         "default": {
           "value": {
             "color": "{bg.button.secondary.default}",
             "width": "0",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "focus": {
+          "value": {
+            "color": "{blue.4}",
+            "width": "{focus}",
             "style": "solid"
           },
           "type": "border"
@@ -349,7 +349,7 @@
         "focus": {
           "value": {
             "color": "{gray.3}",
-            "width": "1.5",
+            "width": "{focus}",
             "style": "solid"
           },
           "type": "border"
@@ -374,7 +374,7 @@
       "focus": {
         "value": {
           "color": "{blue.4}",
-          "width": "1.5",
+          "width": "{focus}",
           "style": "solid"
         },
         "type": "border"
@@ -394,7 +394,7 @@
       "focus": {
         "value": {
           "color": "{blue.4}",
-          "width": "1.5",
+          "width": "{focus}",
           "style": "solid"
         },
         "type": "border"
