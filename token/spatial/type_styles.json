@@ -173,6 +173,16 @@
         "textDecoration": "{default}"
       },
       "type": "typography"
+    },
+    "bold-link": {
+      "value": {
+        "fontFamily": "{ff-main}",
+        "fontWeight": "{fw-max}",
+        "lineHeight": "{lh-body.md}",
+        "fontSize": "{fs-md}",
+        "textDecoration": "{link}"
+      },
+      "type": "typography"
     }
   }
 }

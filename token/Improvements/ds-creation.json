@@ -152,5 +152,9 @@
       "value": "{base}*4",
       "type": "sizing"
     }
+  },
+  "focus-width": {
+    "value": "3",
+    "type": "borderWidth"
   }
 }

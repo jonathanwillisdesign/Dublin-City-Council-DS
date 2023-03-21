@@ -1,0 +1,24 @@
+{
+  "search-bar": {
+    "container": {
+      "value": {
+        "itemSpacing": "{3u}"
+      },
+      "type": "composition"
+    },
+    "wrapper": {
+      "default": {
+        "value": {
+          "boxShadow": "{shadow.none}"
+        },
+        "type": "composition"
+      },
+      "hover": {
+        "value": {
+          "boxShadow": "{shadow.primary}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}

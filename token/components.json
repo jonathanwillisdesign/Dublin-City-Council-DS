@@ -149,8 +149,40 @@
       }
     },
     "form-label": {
+      "default": {
+        "value": {
+          "typography": "{label.bold}",
+          "fill": "{fg.text.primary}"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "bold-link": {
+    "inverted": {
       "value": {
         "typography": "{label.bold}",
+        "fill": "{fg.text.inverted}"
+      },
+      "type": "composition"
+    },
+    "default": {
+      "value": {
+        "typography": "{label.bold}",
+        "fill": "{fg.text.primary}"
+      },
+      "type": "composition"
+    },
+    "inverted-hover": {
+      "value": {
+        "typography": "{label.bold-link}",
+        "fill": "{fg.text.inverted}"
+      },
+      "type": "composition"
+    },
+    "default-hover": {
+      "value": {
+        "typography": "{label.bold-link}",
         "fill": "{fg.text.primary}"
       },
       "type": "composition"
