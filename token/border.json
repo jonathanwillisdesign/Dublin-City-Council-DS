@@ -432,5 +432,17 @@
         "type": "border"
       }
     }
+  },
+  "select": {
+    "icon": {
+      "caret": {
+        "value": {
+          "color": "{fg.text.primary}",
+          "width": "{icon-stoke.defualt}",
+          "style": "solid"
+        },
+        "type": "border"
+      }
+    }
   }
 }

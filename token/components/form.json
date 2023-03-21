@@ -317,5 +317,67 @@
   "bw-checkbox": {
     "value": "{bw.thin}",
     "type": "borderWidth"
+  },
+  "select": {
+    "text": {
+      "placeholder": {
+        "value": {
+          "typography": "{body.standard.default}",
+          "fill": "{fg.text.secondary}"
+        },
+        "type": "composition"
+      },
+      "selected": {
+        "value": {
+          "typography": "{body.standard.default}",
+          "fill": "{fg.text.primary}"
+        },
+        "type": "composition"
+      }
+    },
+    "divider": {
+      "value": {
+        "borderWidth": "{bw.thin}",
+        "borderColor": "{fg.divider.primary}"
+      },
+      "type": "composition"
+    },
+    "container": {
+      "default": {
+        "value": {
+          "fill": "{bg.body.primary}",
+          "horizontalPadding": "{base}*2.5",
+          "verticalPadding": "{base}*3.75",
+          "boxShadow": "{shadow.none}"
+        },
+        "type": "composition"
+      },
+      "open": {
+        "value": {
+          "fill": "{bg.body.primary}",
+          "horizontalPadding": "{base}*2.5",
+          "verticalPadding": "{base}*3.75",
+          "boxShadow": "{shadow.primary}"
+        },
+        "type": "composition"
+      }
+    },
+    "wrapper": {
+      "value": {
+        "height": "{size-select.wrapper-height}",
+        "itemSpacing": "{4u}"
+      },
+      "type": "composition"
+    }
+  },
+  "size-select": {
+    "wrapper-height": {
+      "value": "{base}*10",
+      "type": "sizing"
+    },
+    "icon-height": {
+      "value": "{base}*7",
+      "type": "sizing"
+    }
   }
 }
