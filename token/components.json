@@ -147,6 +147,13 @@
           "type": "composition"
         }
       }
+    },
+    "form-label": {
+      "value": {
+        "typography": "{label.bold}",
+        "fill": "{fg.text.primary}"
+      },
+      "type": "composition"
     }
   },
   "Info": {

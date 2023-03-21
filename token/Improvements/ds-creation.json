@@ -16,6 +16,28 @@
       },
       "type": "typography",
       "description": "Minor Adjustment to line height"
+    },
+    "selected": {
+      "value": {
+        "fontFamily": "{ff-main}",
+        "fontWeight": "{fw-mid}",
+        "lineHeight": "{form-height}",
+        "fontSize": "{fs-md}",
+        "textDecoration": "{default}"
+      },
+      "type": "typography",
+      "description": "Minor Adjustment to line height"
+    },
+    "bold": {
+      "value": {
+        "fontFamily": "{ff-main}",
+        "fontWeight": "{fw-max}",
+        "lineHeight": "{form-height}",
+        "fontSize": "{fs-md}",
+        "textDecoration": "{default}"
+      },
+      "type": "typography",
+      "description": "Minor Adjustment to line height"
     }
   },
   "toggle": {
@@ -79,7 +101,7 @@
       "option": {
         "selected": {
           "value": {
-            "typography": "{label.default}",
+            "typography": "{label.selected}",
             "fill": "{fg.text.inverted}"
           },
           "type": "composition"
@@ -87,7 +109,7 @@
       },
       "selected-open": {
         "value": {
-          "typography": "{label.default}",
+          "typography": "{label.selected}",
           "fill": "{fg.notice.status}"
         },
         "type": "composition"
@@ -102,6 +124,19 @@
         "value": "{base}*4",
         "type": "spacing"
       }
+    },
+    "divider-trigger": {
+      "value": {
+        "borderWidth": "{bw.thin}",
+        "borderColor": "{fg.divider.primary}"
+      },
+      "type": "composition"
+    },
+    "caret-open": {
+      "value": {
+        "opacity": "1"
+      },
+      "type": "composition"
     }
   },
   "br-checkbox": {

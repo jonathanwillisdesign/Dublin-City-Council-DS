@@ -315,14 +315,14 @@
       },
       "selected": {
         "value": {
-          "typography": "{label.default}",
+          "typography": "{label.selected}",
           "fill": "{fg.text.primary}"
         },
         "type": "composition"
       },
       "selected-open": {
         "value": {
-          "typography": "{label.default}",
+          "typography": "{label.selected}",
           "fill": "{fg.text.secondary}"
         },
         "type": "composition"
@@ -361,6 +361,13 @@
     "divider": {
       "value": {
         "borderWidth": "{bw.thin}",
+        "borderColor": "{fg.divider.primary}"
+      },
+      "type": "composition"
+    },
+    "divider-trigger": {
+      "value": {
+        "borderWidth": "0",
         "borderColor": "{fg.divider.primary}"
       },
       "type": "composition"
@@ -417,6 +424,14 @@
         },
         "type": "composition"
       },
+      "no-results": {
+        "value": {
+          "fill": "{fg.form-elem.inactive}",
+          "verticalPadding": "{select.padding.vertical}",
+          "horizontalPadding": "{select.padding.horizontal}"
+        },
+        "type": "composition"
+      },
       "wrapper": {
         "value": {
           "itemSpacing": "{4u}"
@@ -467,6 +482,12 @@
         "value": "{base}*3.75",
         "type": "spacing"
       }
+    },
+    "label-container": {
+      "value": {
+        "itemSpacing": "{4u}"
+      },
+      "type": "composition"
     }
   },
   "size-select": {
