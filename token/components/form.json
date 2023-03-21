@@ -320,6 +320,13 @@
         },
         "type": "composition"
       },
+      "selected-open": {
+        "value": {
+          "typography": "{label.default}",
+          "fill": "{fg.text.secondary}"
+        },
+        "type": "composition"
+      },
       "option": {
         "default": {
           "value": {
@@ -334,7 +341,21 @@
             "fill": "{fg.text.primary}"
           },
           "type": "composition"
+        },
+        "noresults": {
+          "value": {
+            "typography": "{label.default}",
+            "fill": "{fg.text.secondary}"
+          },
+          "type": "composition"
         }
+      },
+      "search": {
+        "value": {
+          "typography": "{body.xsmall.default}",
+          "fill": "{fg.text.primary}"
+        },
+        "type": "composition"
       }
     },
     "divider": {
@@ -380,6 +401,14 @@
         },
         "type": "composition"
       },
+      "search-wrapper": {
+        "value": {
+          "fill": "{bg.body.primary}",
+          "horizontalPadding": "{2u}",
+          "verticalPadding": "{2u}"
+        },
+        "type": "composition"
+      },
       "selected": {
         "value": {
           "fill": "{bg.button.secondary.default}",
@@ -394,6 +423,15 @@
         },
         "type": "composition"
       },
+      "search bar": {
+        "value": {
+          "verticalPadding": "{2u}",
+          "horizontalPadding": "{2u}",
+          "borderWidth": "{bw.thin}",
+          "borderColor": "{fg.form-elem.border}"
+        },
+        "type": "composition"
+      },
       "icon": {
         "value": {
           "height": "{size-select.icon-height}",
@@ -404,12 +442,21 @@
       }
     },
     "container": {
-      "value": {
-        "borderColor": "{fg.form-elem.border}",
-        "borderWidth": "{bw.thin}",
-        "boxShadow": ""
+      "open": {
+        "value": {
+          "borderColor": "{fg.form-elem.border}",
+          "borderWidth": "{focus}",
+          "boxShadow": "{Select-Option-Container-Shadow}"
+        },
+        "type": "composition"
       },
-      "type": "composition"
+      "closed": {
+        "value": {
+          "borderColor": "{fg.form-elem.border}",
+          "borderWidth": "{focus}"
+        },
+        "type": "composition"
+      }
     },
     "padding": {
       "vertical": {

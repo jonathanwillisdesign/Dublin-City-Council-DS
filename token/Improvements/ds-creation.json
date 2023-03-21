@@ -84,6 +84,13 @@
           },
           "type": "composition"
         }
+      },
+      "selected-open": {
+        "value": {
+          "typography": "{label.default}",
+          "fill": "{fg.notice.status}"
+        },
+        "type": "composition"
       }
     },
     "padding": {
