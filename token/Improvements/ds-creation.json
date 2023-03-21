@@ -145,11 +145,11 @@
   },
   "size-checkbox": {
     "width": {
-      "value": "{form-height}",
+      "value": "{base}*6",
       "type": "sizing"
     },
     "icon": {
-      "value": "{base}*5",
+      "value": "{base}*4",
       "type": "sizing"
     }
   }
