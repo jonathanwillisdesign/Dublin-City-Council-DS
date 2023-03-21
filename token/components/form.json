@@ -549,8 +549,40 @@
       }
     }
   },
+  "col-circle-button": {
+    "default": {
+      "icon": {
+        "value": "{fg.text.primary}",
+        "type": "color"
+      },
+      "outer": {
+        "value": "{fg.text.primary}",
+        "type": "color"
+      }
+    },
+    "error": {
+      "icon": {
+        "value": "{fg.text.error}",
+        "type": "color"
+      },
+      "outer": {
+        "value": "{fg.text.error}",
+        "type": "color"
+      }
+    }
+  },
   "bw-checkbox-icon-stroke": {
     "value": "{icon-stoke.defualt}",
     "type": "borderWidth"
+  },
+  "bw-circle-button": {
+    "icon-stroke": {
+      "value": "{icon-stoke.thick}",
+      "type": "borderWidth"
+    },
+    "outer": {
+      "value": "{icon-stoke.thick}",
+      "type": "borderWidth"
+    }
   }
 }

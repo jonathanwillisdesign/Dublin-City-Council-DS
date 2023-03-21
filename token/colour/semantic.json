@@ -20,6 +20,10 @@
         "value": "{undocumented.blue.B}",
         "type": "color",
         "description": "⚠️ Should this be blue 1 or 2?"
+      },
+      "error": {
+        "value": "{pink.1}",
+        "type": "color"
       }
     },
     "notice": {
