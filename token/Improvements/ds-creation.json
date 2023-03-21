@@ -45,5 +45,60 @@
       },
       "type": "composition"
     }
+  },
+  "select": {
+    "option-container": {
+      "selected": {
+        "value": {
+          "fill": "{fg.form-elem.active}",
+          "verticalPadding": "{select.padding.vertical}",
+          "horizontalPadding": "{select.padding.horizontal}"
+        },
+        "type": "composition"
+      },
+      "icon": {
+        "value": {
+          "height": "{size-select.icon-height}",
+          "width": "{size-select.icon-height}",
+          "opacity": "1"
+        },
+        "type": "composition"
+      }
+    },
+    "icon": {
+      "check-hover": {
+        "value": {
+          "color": "{fg.text.inverted}",
+          "width": "{bw.med}",
+          "style": "solid"
+        },
+        "type": "border"
+      }
+    },
+    "text": {
+      "option": {
+        "selected": {
+          "value": {
+            "typography": "{label.default}",
+            "fill": "{fg.text.inverted}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "padding": {
+      "vertical": {
+        "value": "{base}*3",
+        "type": "spacing"
+      },
+      "horizontal": {
+        "value": "{base}*4",
+        "type": "spacing"
+      }
+    }
+  },
+  "br-checkbox": {
+    "value": "0",
+    "type": "borderRadius"
   }
 }

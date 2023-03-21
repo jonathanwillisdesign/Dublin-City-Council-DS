@@ -419,18 +419,6 @@
         },
         "type": "border"
       }
-    },
-    "icon": {
-      "check": {
-        "value": "{icon.border.default.inverted}",
-        "type": "border"
-      }
-    },
-    "icon-border": {
-      "X": {
-        "value": "{icon.border.default.primary}",
-        "type": "border"
-      }
     }
   },
   "select": {

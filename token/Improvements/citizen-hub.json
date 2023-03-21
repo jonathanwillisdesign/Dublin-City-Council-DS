@@ -54,5 +54,9 @@
         "type": "composition"
       }
     }
+  },
+  "br-checkbox": {
+    "value": "0",
+    "type": "borderRadius"
   }
 }

@@ -362,8 +362,8 @@
       "default": {
         "value": {
           "fill": "{bg.body.primary}",
-          "horizontalPadding": "{base}*2.5",
-          "verticalPadding": "{base}*3.75",
+          "horizontalPadding": "{select.padding.horizontal}",
+          "verticalPadding": "{select.padding.vertical}",
           "boxShadow": "{shadow.none}"
         },
         "type": "composition"
@@ -371,8 +371,8 @@
       "open": {
         "value": {
           "fill": "{bg.body.primary}",
-          "horizontalPadding": "{base}*2.5",
-          "verticalPadding": "{base}*3.75",
+          "horizontalPadding": "{select.padding.horizontal}",
+          "verticalPadding": "{select.padding.vertical}",
           "boxShadow": "{shadow.primary}"
         },
         "type": "composition"
@@ -389,16 +389,16 @@
       "default": {
         "value": {
           "fill": "{bg.body.primary}",
-          "horizontalPadding": "{base}*2.5",
-          "verticalPadding": "{base}*3.75"
+          "horizontalPadding": "{select.padding.horizontal}",
+          "verticalPadding": "{select.padding.vertical}"
         },
         "type": "composition"
       },
       "selected": {
         "value": {
           "fill": "{bg.button.secondary.default}",
-          "horizontalPadding": "{base}*2.5",
-          "verticalPadding": "{base}*3.75"
+          "verticalPadding": "{select.padding.vertical}",
+          "horizontalPadding": "{select.padding.horizontal}"
         },
         "type": "composition"
       },
@@ -412,9 +412,27 @@
         "value": {
           "height": "{size-select.icon-height}",
           "width": "{size-select.icon-height}",
-          "opacity": "1"
+          "opacity": "0"
         },
         "type": "composition"
+      }
+    },
+    "container": {
+      "value": {
+        "borderColor": "{fg.form-elem.border}",
+        "borderWidth": "{bw.thin}",
+        "boxShadow": ""
+      },
+      "type": "composition"
+    },
+    "padding": {
+      "vertical": {
+        "value": "{base}*2.5",
+        "type": "spacing"
+      },
+      "horizontal": {
+        "value": "{base}*3.75",
+        "type": "spacing"
       }
     }
   },
@@ -427,5 +445,16 @@
       "value": "{base}*7",
       "type": "sizing"
     }
+  },
+  "Select-Option-Container-Shadow": {
+    "value": {
+      "x": "0",
+      "y": "6",
+      "blur": "6",
+      "spread": "0",
+      "color": "rgba(0,0,0,0.25)",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
   }
 }
