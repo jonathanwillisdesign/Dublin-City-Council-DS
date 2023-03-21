@@ -442,6 +442,22 @@
           "style": "solid"
         },
         "type": "border"
+      },
+      "check-default": {
+        "value": {
+          "color": "{fg.form-elem.active}",
+          "width": "{bw.med}",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "check-hover": {
+        "value": {
+          "color": "{fg.form-elem.active}",
+          "width": "{bw.med}",
+          "style": "solid"
+        },
+        "type": "border"
       }
     }
   }

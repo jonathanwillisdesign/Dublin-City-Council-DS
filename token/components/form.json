@@ -322,17 +322,33 @@
     "text": {
       "placeholder": {
         "value": {
-          "typography": "{body.standard.default}",
+          "typography": "{label.default}",
           "fill": "{fg.text.secondary}"
         },
         "type": "composition"
       },
       "selected": {
         "value": {
-          "typography": "{body.standard.default}",
+          "typography": "{label.default}",
           "fill": "{fg.text.primary}"
         },
         "type": "composition"
+      },
+      "option": {
+        "default": {
+          "value": {
+            "typography": "{label.default}",
+            "fill": "{fg.text.primary}"
+          },
+          "type": "composition"
+        },
+        "selected": {
+          "value": {
+            "typography": "{label.default}",
+            "fill": "{fg.text.primary}"
+          },
+          "type": "composition"
+        }
       }
     },
     "divider": {
@@ -342,7 +358,7 @@
       },
       "type": "composition"
     },
-    "container": {
+    "trigger-container": {
       "default": {
         "value": {
           "fill": "{bg.body.primary}",
@@ -360,14 +376,46 @@
           "boxShadow": "{shadow.primary}"
         },
         "type": "composition"
+      },
+      "wrapper": {
+        "value": {
+          "height": "{size-select.wrapper-height}",
+          "itemSpacing": "{4u}"
+        },
+        "type": "composition"
       }
     },
-    "wrapper": {
-      "value": {
-        "height": "{size-select.wrapper-height}",
-        "itemSpacing": "{4u}"
+    "option-container": {
+      "default": {
+        "value": {
+          "fill": "{bg.body.primary}",
+          "horizontalPadding": "{base}*2.5",
+          "verticalPadding": "{base}*3.75"
+        },
+        "type": "composition"
       },
-      "type": "composition"
+      "selected": {
+        "value": {
+          "fill": "{bg.button.secondary.default}",
+          "horizontalPadding": "{base}*2.5",
+          "verticalPadding": "{base}*3.75"
+        },
+        "type": "composition"
+      },
+      "wrapper": {
+        "value": {
+          "itemSpacing": "{4u}"
+        },
+        "type": "composition"
+      },
+      "icon": {
+        "value": {
+          "height": "{size-select.icon-height}",
+          "width": "{size-select.icon-height}",
+          "opacity": "1"
+        },
+        "type": "composition"
+      }
     }
   },
   "size-select": {
