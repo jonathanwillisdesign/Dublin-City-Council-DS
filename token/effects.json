@@ -21,6 +21,17 @@
         "type": "dropShadow"
       },
       "type": "boxShadow"
+    },
+    "error": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "6",
+        "spread": "0",
+        "color": "rgba({fg.text.error},1)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
     }
   }
 }

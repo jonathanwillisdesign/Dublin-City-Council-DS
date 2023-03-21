@@ -131,6 +131,18 @@
       }
     }
   },
+  "helper": {
+    "bold": {
+      "value": {
+        "fontFamily": "{ff-main}",
+        "fontWeight": "{fw-max}",
+        "lineHeight": "{lh-body.xs}",
+        "fontSize": "{fs-xs}",
+        "textDecoration": "{default}"
+      },
+      "type": "typography"
+    }
+  },
   "label": {
     "default": {
       "value": {

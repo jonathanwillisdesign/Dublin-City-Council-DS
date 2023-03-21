@@ -313,7 +313,7 @@
         "focus": {
           "value": {
             "color": "{blue.4}",
-            "width": "{focus}",
+            "width": "{focus-width}",
             "style": "solid"
           },
           "type": "border"
@@ -330,8 +330,8 @@
         },
         "focus": {
           "value": {
-            "color": "{blue.4}",
-            "width": "{focus}",
+            "color": "{fg.form-elem.active}",
+            "width": "{focus-width}",
             "style": "solid"
           },
           "type": "border"
@@ -348,8 +348,8 @@
         },
         "focus": {
           "value": {
-            "color": "{gray.3}",
-            "width": "{focus}",
+            "color": "{fg.form-elem.active}",
+            "width": "{focus-width}",
             "style": "solid"
           },
           "type": "border"
@@ -374,7 +374,7 @@
       "focus": {
         "value": {
           "color": "{blue.4}",
-          "width": "{focus}",
+          "width": "{focus-width}",
           "style": "solid"
         },
         "type": "border"
@@ -394,7 +394,7 @@
       "focus": {
         "value": {
           "color": "{blue.4}",
-          "width": "{focus}",
+          "width": "{focus-width}",
           "style": "solid"
         },
         "type": "border"
@@ -414,7 +414,7 @@
       "focus": {
         "value": {
           "color": "{blue.4}",
-          "width": "{bw.thin}",
+          "width": "{focus-width}",
           "style": "solid"
         },
         "type": "border"
@@ -448,5 +448,37 @@
         "type": "border"
       }
     }
+  },
+  "text-input": {
+    "border": {
+      "default": {
+        "value": {
+          "color": "{bg.button.primary.default}",
+          "width": "0",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "focus": {
+        "value": {
+          "color": "{fg.form-elem.active}",
+          "width": "{focus-width}",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "focus-error": {
+        "value": {
+          "color": "{fg.text.error}",
+          "width": "{focus-width}",
+          "style": "solid"
+        },
+        "type": "border"
+      }
+    }
+  },
+  "focus-width": {
+    "value": "3",
+    "type": "borderWidth"
   }
 }
