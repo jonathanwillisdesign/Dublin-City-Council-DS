@@ -53,44 +53,6 @@
         },
         "type": "composition"
       }
-    },
-    "border": {
-      "focus": {
-        "value": {
-          "color": "{blue.4}",
-          "width": "{focus}",
-          "style": "solid"
-        },
-        "type": "border"
-      }
-    }
-  },
-  "bw-checkbox": {
-    "icon-stroke": {
-      "value": "{icon-stoke.thick}",
-      "type": "borderWidth"
-    },
-    "container": {
-      "value": "{bw.med}",
-      "type": "borderWidth"
-    }
-  },
-  "br-checkbox": {
-    "value": "0",
-    "type": "borderRadius"
-  },
-  "col-checkbox": {
-    "container": {
-      "check": {
-        "active": {
-          "value": "{fg.form-elem.active}",
-          "type": "color"
-        },
-        "active-hover": {
-          "value": "{fg.form-elem.active}",
-          "type": "color"
-        }
-      }
     }
   }
 }

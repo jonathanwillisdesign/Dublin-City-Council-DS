@@ -145,130 +145,6 @@
       "type": "composition"
     }
   },
-  "checkbox": {
-    "label": {
-      "value": {
-        "typography": "{label.default}",
-        "fill": "{fg.text.primary}"
-      },
-      "type": "composition"
-    },
-    "componenet-wrapper": {
-      "value": {
-        "height": "{size-checkbox.width}"
-      },
-      "type": "composition"
-    },
-    "container": {
-      "check": {
-        "active": {
-          "value": {
-            "height": "{size-checkbox.width}",
-            "width": "{size-checkbox.width}",
-            "fill": "{col-checkbox.container.check.active}",
-            "borderWidth": "0",
-            "borderRadius": "{br-checkbox}",
-            "borderColor": "{fg.form-elem.border}",
-            "boxShadow": "{shadow.none}"
-          },
-          "type": "composition"
-        },
-        "active-hover": {
-          "value": {
-            "height": "{size-checkbox.width}",
-            "width": "{size-checkbox.width}",
-            "fill": "{col-checkbox.container.check.active-hover}",
-            "borderWidth": "0",
-            "borderRadius": "{br-checkbox}",
-            "borderColor": "{fg.form-elem.border}",
-            "boxShadow": "{shadow.primary}"
-          },
-          "type": "composition"
-        },
-        "inactive": {
-          "value": {
-            "height": "{size-checkbox.width}",
-            "width": "{size-checkbox.width}",
-            "fill": "{col-checkbox.container.inactive}",
-            "borderWidth": "{bw-checkbox.container}",
-            "borderRadius": "{br-checkbox}",
-            "borderColor": "{fg.form-elem.border}",
-            "boxShadow": "{shadow.none}"
-          },
-          "type": "composition"
-        },
-        "inactive-hover": {
-          "value": {
-            "height": "{size-checkbox.width}",
-            "width": "{size-checkbox.width}",
-            "fill": "{col-checkbox.container.inactive-hover}",
-            "borderWidth": "{bw-checkbox.container}",
-            "borderRadius": "{br-checkbox}",
-            "borderColor": "{fg.form-elem.border}",
-            "boxShadow": "{shadow.primary}"
-          },
-          "type": "composition"
-        }
-      },
-      "x": {
-        "active": {
-          "value": {
-            "height": "{size-checkbox.width}",
-            "width": "{size-checkbox.width}",
-            "fill": "{col-checkbox.container.X.active}",
-            "borderWidth": "0",
-            "borderRadius": "{br-checkbox}",
-            "borderColor": "{fg.form-elem.border}",
-            "boxShadow": "{shadow.none}"
-          },
-          "type": "composition"
-        },
-        "active-hover": {
-          "value": {
-            "height": "{size-checkbox.width}",
-            "width": "{size-checkbox.width}",
-            "fill": "{col-checkbox.container.X.active-hover}",
-            "borderWidth": "0",
-            "borderRadius": "{br-checkbox}",
-            "borderColor": "{fg.form-elem.border}",
-            "boxShadow": "{shadow.primary}"
-          },
-          "type": "composition"
-        },
-        "inactive": {
-          "value": {
-            "height": "{size-checkbox.width}",
-            "width": "{size-checkbox.width}",
-            "fill": "{col-checkbox.container.inactive}",
-            "borderWidth": "{bw-checkbox.container}",
-            "borderRadius": "{br-checkbox}",
-            "borderColor": "{fg.form-elem.border}",
-            "boxShadow": "{shadow.none}"
-          },
-          "type": "composition"
-        },
-        "inactive-hover": {
-          "value": {
-            "height": "{size-checkbox.width}",
-            "width": "{size-checkbox.width}",
-            "fill": "{col-checkbox.container.inactive-hover}",
-            "borderWidth": "{bw-checkbox.container}",
-            "borderRadius": "{br-checkbox}",
-            "borderColor": "{fg.form-elem.border}",
-            "boxShadow": "{shadow.primary}"
-          },
-          "type": "composition"
-        }
-      }
-    },
-    "icon-wrapper": {
-      "value": {
-        "width": "{size-checkbox.icon}",
-        "height": "{size-checkbox.icon}"
-      },
-      "type": "composition"
-    }
-  },
   "size-radio-button": {
     "circumfrence": {
       "value": "{base}*5",
@@ -293,6 +169,137 @@
       }
     }
   },
+  "checkbox": {
+    "componenet-wrapper": {
+      "value": {
+        "height": "{size-checkbox.width}"
+      },
+      "type": "composition"
+    },
+    "container": {
+      "check": {
+        "active": {
+          "value": {
+            "height": "{size-checkbox.width}",
+            "width": "{size-checkbox.width}",
+            "fill": "#056AF9",
+            "borderWidth": "0",
+            "borderRadius": "{br-checkbox}",
+            "borderColor": "{fg.form-elem.border}",
+            "boxShadow": "{shadow.none}"
+          },
+          "type": "composition"
+        },
+        "active-hover": {
+          "value": {
+            "height": "{size-checkbox.width}",
+            "width": "{size-checkbox.width}",
+            "fill": "#0452BC",
+            "borderWidth": "0",
+            "borderRadius": "{br-checkbox}",
+            "borderColor": "{fg.form-elem.border}",
+            "boxShadow": "{shadow.primary}"
+          },
+          "type": "composition"
+        },
+        "inactive": {
+          "value": {
+            "height": "{size-checkbox.width}",
+            "width": "{size-checkbox.width}",
+            "fill": "{fg.text.inverted}",
+            "borderWidth": "{bw.thin}",
+            "borderRadius": "{br-checkbox}",
+            "borderColor": "{fg.form-elem.border}",
+            "boxShadow": "{shadow.none}"
+          },
+          "type": "composition"
+        },
+        "inactive-hover": {
+          "value": {
+            "height": "{size-checkbox.width}",
+            "width": "{size-checkbox.width}",
+            "fill": "{fg.text.inverted}",
+            "borderWidth": "{bw.thin}",
+            "borderRadius": "{br-checkbox}",
+            "borderColor": "{fg.form-elem.border}",
+            "boxShadow": "{shadow.primary}"
+          },
+          "type": "composition"
+        }
+      },
+      "x": {
+        "active": {
+          "value": {
+            "height": "{size-checkbox.width}",
+            "width": "{size-checkbox.width}",
+            "fill": "rgba({fg.text.inverted},0)",
+            "borderWidth": "0",
+            "borderRadius": "{br-checkbox}",
+            "borderColor": "{fg.form-elem.border}",
+            "boxShadow": "{shadow.none}"
+          },
+          "type": "composition"
+        },
+        "active-hover": {
+          "value": {
+            "height": "{size-checkbox.width}",
+            "width": "{size-checkbox.width}",
+            "fill": "{fg.text.inverted}",
+            "borderWidth": "0",
+            "borderRadius": "{br-checkbox}",
+            "borderColor": "{fg.form-elem.border}",
+            "boxShadow": "{shadow.primary}"
+          },
+          "type": "composition"
+        },
+        "inactive": {
+          "value": {
+            "height": "{size-checkbox.width}",
+            "width": "{size-checkbox.width}",
+            "fill": "{fg.text.inverted}",
+            "borderWidth": "{bw.thin}",
+            "borderRadius": "{br-checkbox}",
+            "borderColor": "{fg.form-elem.border}",
+            "boxShadow": "{shadow.none}"
+          },
+          "type": "composition"
+        },
+        "inactive-hover": {
+          "value": {
+            "height": "{size-checkbox.width}",
+            "width": "{size-checkbox.width}",
+            "fill": "{fg.text.inverted}",
+            "borderWidth": "{bw.thin}",
+            "borderRadius": "{br-checkbox}",
+            "borderColor": "{fg.form-elem.border}",
+            "boxShadow": "{shadow.primary}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "icon-wrapper": {
+      "value": {
+        "width": "{size-checkbox.icon}",
+        "height": "{size-checkbox.icon}"
+      },
+      "type": "composition"
+    },
+    "icon": {
+      "check": {
+        "value": {
+          "border": "{icon.border.default.inverted}"
+        },
+        "type": "composition"
+      },
+      "X": {
+        "value": {
+          "border": "{icon.border.default.primary}"
+        },
+        "type": "composition"
+      }
+    }
+  },
   "size-checkbox": {
     "width": {
       "value": "{base}*5",
@@ -308,55 +315,7 @@
     "type": "borderRadius"
   },
   "bw-checkbox": {
-    "container": {
-      "value": "{bw.thin}",
-      "type": "borderWidth"
-    },
-    "icon-stroke": {
-      "value": "{icon-stoke.defualt}",
-      "type": "borderWidth"
-    }
-  },
-  "col-checkbox": {
-    "icon": {
-      "check": {
-        "value": "{fg.text.inverted}",
-        "type": "color"
-      },
-      "X": {
-        "value": "{fg.text.primary}",
-        "type": "color"
-      }
-    },
-    "container": {
-      "check": {
-        "active": {
-          "value": "#056AF9",
-          "type": "color"
-        },
-        "active-hover": {
-          "value": "#0452BC",
-          "type": "color"
-        }
-      },
-      "inactive": {
-        "value": "{fg.text.inverted}",
-        "type": "color"
-      },
-      "inactive-hover": {
-        "value": "{fg.text.inverted}",
-        "type": "color"
-      },
-      "X": {
-        "active": {
-          "value": "rgba({fg.text.inverted},0)",
-          "type": "color"
-        },
-        "active-hover": {
-          "value": "rgba({fg.text.inverted},1)",
-          "type": "color"
-        }
-      }
-    }
+    "value": "{bw.thin}",
+    "type": "borderWidth"
   }
 }

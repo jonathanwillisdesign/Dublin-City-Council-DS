@@ -12,8 +12,7 @@
       "border": "enabled",
       "sites/dublin_city_dot_ie": "enabled",
       "components": "enabled",
-      "effects": "enabled",
-      "Improvements/big-focus": "disabled"
+      "effects": "enabled"
     },
     "$figmaStyleReferences": {}
   }

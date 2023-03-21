@@ -15,7 +15,6 @@
     "components/form",
     "sites/dublin_city_dot_ie",
     "Improvements/citizen-hub",
-    "Improvements/ds-creation",
-    "Improvements/big-focus"
+    "Improvements/ds-creation"
   ]
 }
