@@ -121,6 +121,11 @@
         "value": "#006990",
         "type": "color",
         "description": "❓ Hover Colour for button"
+      },
+      "E": {
+        "value": "#80BACF",
+        "type": "color",
+        "description": "❓ Used as a section link divider"
       }
     },
     "gray": {

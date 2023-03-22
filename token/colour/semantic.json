@@ -68,6 +68,10 @@
         "value": "{blue.3}",
         "type": "color",
         "description": "Featured divider - used on section cards"
+      },
+      "secondary": {
+        "value": "{undocumented.blue.E}",
+        "type": "color"
       }
     },
     "bullet": {

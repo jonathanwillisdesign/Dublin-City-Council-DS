@@ -199,5 +199,15 @@
       "value": "{4u}",
       "type": "spacing"
     }
+  },
+  "section-link-padding": {
+    "vertical": {
+      "value": "{3u}",
+      "type": "spacing"
+    },
+    "horizontal": {
+      "value": "{4u}",
+      "type": "spacing"
+    }
   }
 }
