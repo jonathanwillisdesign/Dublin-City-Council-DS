@@ -12,7 +12,11 @@
       "border": "enabled",
       "sites/dublin_city_dot_ie": "enabled",
       "components": "enabled",
-      "effects": "enabled"
+      "effects": "enabled",
+      "components/content": "enabled",
+      "components/form": "enabled",
+      "components/cards": "enabled",
+      "components/navigation": "enabled"
     },
     "$figmaStyleReferences": {}
   }
