@@ -156,5 +156,28 @@
   "focus-width": {
     "value": "3",
     "type": "borderWidth"
+  },
+  "sidebar": {
+    "menu-item": {
+      "text": {
+        "active": {
+          "value": {
+            "typography": "{body.small.semi-bold}",
+            "fill": "{fg.text.inverted}"
+          },
+          "type": "composition"
+        }
+      },
+      "wrapper": {
+        "active": {
+          "value": {
+            "verticalPadding": "{3u}",
+            "horizontalPadding": "{4u}",
+            "fill": "{bg.card.active}"
+          },
+          "type": "composition"
+        }
+      }
+    }
   }
 }

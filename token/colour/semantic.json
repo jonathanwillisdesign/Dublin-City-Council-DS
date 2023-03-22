@@ -58,6 +58,16 @@
         "value": "{gray.3}",
         "type": "color",
         "description": "Primary divider color to break up content"
+      },
+      "highlight": {
+        "value": "{undocumented.blue.B}",
+        "type": "color",
+        "description": "Highlight divider - used on section cards"
+      },
+      "featured": {
+        "value": "{blue.3}",
+        "type": "color",
+        "description": "Featured divider - used on section cards"
       }
     },
     "bullet": {
@@ -231,6 +241,24 @@
         "value": "{undocumented.gray.C}",
         "type": "color",
         "description": "Inactive Tab Background"
+      }
+    },
+    "card": {
+      "active": {
+        "value": "{blue.1}",
+        "type": "color"
+      },
+      "active-hover": {
+        "value": "{blue.2}",
+        "type": "color"
+      },
+      "default": {
+        "value": "{gray.1}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{gray.3}",
+        "type": "color"
       }
     }
   }

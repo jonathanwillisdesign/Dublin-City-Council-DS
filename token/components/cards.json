@@ -1,0 +1,84 @@
+{
+  "section-title": {
+    "top-border": {
+      "default": {
+        "value": {
+          "borderWidth": "{bw-section-title-top-border}",
+          "borderColor": "{fg.divider.highlight}"
+        },
+        "type": "composition"
+      },
+      "featured": {
+        "value": {
+          "borderWidth": "{bw-section-title-top-border}",
+          "borderColor": "{fg.divider.featured}"
+        },
+        "type": "composition"
+      }
+    },
+    "text": {
+      "default": {
+        "value": {
+          "typography": "{heading.h3}",
+          "fill": "{fg.text.primary}"
+        },
+        "type": "composition"
+      },
+      "featured": {
+        "value": {
+          "typography": "{heading.h3}",
+          "fill": "{fg.text.inverted}"
+        },
+        "type": "composition"
+      }
+    },
+    "wrapper": {
+      "default": {
+        "value": {
+          "verticalPadding": "{section-title-padding.vertical}",
+          "horizontalPadding": "{section-title-padding.horizontal}",
+          "fill": "{bg.card.default}"
+        },
+        "type": "composition"
+      },
+      "hover": {
+        "value": {
+          "verticalPadding": "{section-title-padding.vertical}",
+          "horizontalPadding": "{section-title-padding.horizontal}",
+          "fill": "{bg.card.hover}"
+        },
+        "type": "composition"
+      },
+      "featured": {
+        "value": {
+          "verticalPadding": "{section-title-padding.vertical}",
+          "horizontalPadding": "{section-title-padding.horizontal}",
+          "fill": "{bg.card.active}"
+        },
+        "type": "composition"
+      },
+      "featured-hover": {
+        "value": {
+          "verticalPadding": "{section-title-padding.vertical}",
+          "horizontalPadding": "{section-title-padding.horizontal}",
+          "fill": "{bg.card.active-hover}"
+        },
+        "type": "composition"
+      }
+    }
+  },
+  "bw-section-title-top-border": {
+    "value": "2",
+    "type": "borderWidth"
+  },
+  "section-title-padding": {
+    "vertical": {
+      "value": "{base}*5",
+      "type": "spacing"
+    },
+    "horizontal": {
+      "value": "{base}*3.75",
+      "type": "spacing"
+    }
+  }
+}

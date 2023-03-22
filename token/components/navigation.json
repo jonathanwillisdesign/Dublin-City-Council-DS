@@ -20,5 +20,106 @@
         "type": "composition"
       }
     }
+  },
+  "sidebar": {
+    "menu-item": {
+      "text": {
+        "active": {
+          "value": {
+            "fill": "{fg.text.primary}",
+            "typography": "{body.small.default}"
+          },
+          "type": "composition"
+        },
+        "default": {
+          "value": {
+            "fill": "{fg.text.primary}",
+            "typography": "{body.small.default}"
+          },
+          "type": "composition"
+        }
+      },
+      "wrapper": {
+        "active": {
+          "value": {
+            "verticalPadding": "{sidebar-menu-item-padding.vertical}",
+            "horizontalPadding": "{sidebar-menu-item-padding.horizontal}",
+            "fill": "{col-sidebar-menu-item.active}"
+          },
+          "type": "composition"
+        },
+        "active-hover": {
+          "value": {
+            "verticalPadding": "{sidebar-menu-item-padding.vertical}",
+            "horizontalPadding": "{sidebar-menu-item-padding.horizontal}",
+            "fill": "{col-sidebar-menu-item.active-hover}"
+          },
+          "type": "composition"
+        },
+        "default": {
+          "value": {
+            "verticalPadding": "{sidebar-menu-item-padding.vertical}",
+            "horizontalPadding": "{sidebar-menu-item-padding.horizontal}",
+            "fill": "{bg.card.default}"
+          },
+          "type": "composition"
+        },
+        "hover": {
+          "value": {
+            "verticalPadding": "{sidebar-menu-item-padding.vertical}",
+            "horizontalPadding": "{sidebar-menu-item-padding.horizontal}",
+            "fill": "{bg.card.hover}"
+          },
+          "type": "composition"
+        }
+      },
+      "arrow": {
+        "active": {
+          "value": {
+            "fill": "{col-sidebar-menu-item.active}",
+            "width": "{sidebar.menu-item.arrow-width}"
+          },
+          "type": "composition"
+        },
+        "active-hover": {
+          "value": {
+            "fill": "{col-checkbox.container.active-hover}",
+            "width": "{sidebar.menu-item.arrow-width}"
+          },
+          "type": "composition"
+        },
+        "default": {
+          "value": {
+            "fill": "rgba({bg.card.default},0)",
+            "width": "{sidebar.menu-item.arrow-width}"
+          },
+          "type": "composition"
+        }
+      },
+      "arrow-width": {
+        "value": "{base}*4.5",
+        "type": "sizing"
+      }
+    }
+  },
+  "sidebar-menu-item-padding": {
+    "vertical": {
+      "value": "{base}*2.5",
+      "type": "spacing"
+    },
+    "horizontal": {
+      "value": "{base}*3.75",
+      "type": "spacing"
+    }
+  },
+  "col-sidebar-menu-item": {
+    "active": {
+      "value": "{bg.card.active}",
+      "type": "color"
+    },
+    "active-hover": {
+      "value": "{bg.card.active-hover}",
+      "type": "color"
+    }
   }
 }

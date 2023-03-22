@@ -13,9 +13,10 @@
     "components",
     "components/content",
     "components/form",
+    "components/cards",
+    "components/navigation",
     "sites/dublin_city_dot_ie",
     "Improvements/citizen-hub",
-    "Improvements/ds-creation",
-    "components/navigation"
+    "Improvements/ds-creation"
   ]
 }

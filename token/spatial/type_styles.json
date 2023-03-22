@@ -97,6 +97,16 @@
         },
         "type": "typography"
       },
+      "semi-bold": {
+        "value": {
+          "fontFamily": "{ff-main}",
+          "fontWeight": "{fw-mid}",
+          "lineHeight": "{lh-body.sm}",
+          "fontSize": "{fs-sm}",
+          "textDecoration": "{default}"
+        },
+        "type": "typography"
+      },
       "link": {
         "value": {
           "fontFamily": "{ff-main}",
