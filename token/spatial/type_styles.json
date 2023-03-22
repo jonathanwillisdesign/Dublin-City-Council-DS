@@ -151,6 +151,16 @@
         "textDecoration": "{default}"
       },
       "type": "typography"
+    },
+    "default": {
+      "value": {
+        "fontFamily": "{ff-main}",
+        "fontWeight": "{fw-mid}",
+        "lineHeight": "{lh-body.xs}",
+        "fontSize": "{fs-xs}",
+        "textDecoration": "{default}"
+      },
+      "type": "typography"
     }
   },
   "label": {
@@ -188,8 +198,8 @@
       "value": {
         "fontFamily": "{ff-main}",
         "fontWeight": "{fw-max}",
-        "lineHeight": "{lh-body.md}",
-        "fontSize": "{fs-md}",
+        "lineHeight": "{lh-body.sm}",
+        "fontSize": "{fs-sm}",
         "textDecoration": "{link}"
       },
       "type": "typography"

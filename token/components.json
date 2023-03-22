@@ -151,41 +151,69 @@
     "form-label": {
       "default": {
         "value": {
+          "typography": "{label.default}",
+          "fill": "{fg.text.primary}"
+        },
+        "type": "composition"
+      },
+      "required": {
+        "value": {
+          "typography": "{label.default}",
+          "fill": "{fg.form-elem.active}"
+        },
+        "type": "composition"
+      },
+      "inverted": {
+        "value": {
+          "typography": "{label.default}",
+          "fill": "{fg.text.inverted}"
+        },
+        "type": "composition"
+      },
+      "bold": {
+        "value": {
           "typography": "{label.bold}",
           "fill": "{fg.text.primary}"
         },
         "type": "composition"
+      },
+      "inverted-bold": {
+        "value": {
+          "typography": "{label.bold}",
+          "fill": "{fg.text.inverted}"
+        },
+        "type": "composition"
       }
-    }
-  },
-  "bold-link": {
-    "inverted": {
-      "value": {
-        "typography": "{label.bold}",
-        "fill": "{fg.text.inverted}"
-      },
-      "type": "composition"
     },
-    "default": {
-      "value": {
-        "typography": "{label.bold}",
-        "fill": "{fg.text.primary}"
+    "bold-link": {
+      "inverted": {
+        "value": {
+          "typography": "{label.bold}",
+          "fill": "{fg.text.inverted}"
+        },
+        "type": "composition"
       },
-      "type": "composition"
-    },
-    "inverted-hover": {
-      "value": {
-        "typography": "{label.bold-link}",
-        "fill": "{fg.text.inverted}"
+      "default": {
+        "value": {
+          "typography": "{label.bold}",
+          "fill": "{fg.text.primary}"
+        },
+        "type": "composition"
       },
-      "type": "composition"
-    },
-    "default-hover": {
-      "value": {
-        "typography": "{label.bold-link}",
-        "fill": "{fg.text.primary}"
+      "inverted-hover": {
+        "value": {
+          "typography": "{label.bold-link}",
+          "fill": "{fg.text.inverted}"
+        },
+        "type": "composition"
       },
-      "type": "composition"
+      "default-hover": {
+        "value": {
+          "typography": "{label.bold-link}",
+          "fill": "{fg.text.primary}"
+        },
+        "type": "composition"
+      }
     }
   },
   "Info": {
