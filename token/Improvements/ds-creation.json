@@ -167,17 +167,37 @@
           },
           "type": "composition"
         }
-      },
-      "wrapper": {
-        "active": {
-          "value": {
-            "verticalPadding": "{3u}",
-            "horizontalPadding": "{4u}",
-            "fill": "{bg.card.active}"
-          },
-          "type": "composition"
-        }
       }
+    }
+  },
+  "col-sidebar-menu-item": {
+    "active": {
+      "value": "{bg.card.active}",
+      "type": "color"
+    },
+    "active-hover": {
+      "value": "{bg.card.active-hover}",
+      "type": "color"
+    }
+  },
+  "sidebar-menu-item-padding": {
+    "vertical": {
+      "value": "{3u}",
+      "type": "spacing"
+    },
+    "horizontal": {
+      "value": "{4u}",
+      "type": "spacing"
+    }
+  },
+  "section-title-padding": {
+    "vertical": {
+      "value": "{5u}",
+      "type": "spacing"
+    },
+    "horizontal": {
+      "value": "{4u}",
+      "type": "spacing"
     }
   }
 }

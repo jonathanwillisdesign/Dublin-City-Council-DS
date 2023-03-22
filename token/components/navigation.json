@@ -114,11 +114,11 @@
   },
   "col-sidebar-menu-item": {
     "active": {
-      "value": "{bg.card.active}",
+      "value": "{blue.1}",
       "type": "color"
     },
     "active-hover": {
-      "value": "{bg.card.active-hover}",
+      "value": "{blue.2}",
       "type": "color"
     }
   }
