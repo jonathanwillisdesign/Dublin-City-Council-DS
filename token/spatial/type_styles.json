@@ -204,5 +204,18 @@
       },
       "type": "typography"
     }
+  },
+  "Misc": {
+    "caps": {
+      "value": {
+        "fontFamily": "{ff-main}",
+        "fontWeight": "{fw-base}",
+        "lineHeight": "{lh-body.xs}",
+        "fontSize": "{fs-xs}",
+        "textDecoration": "{default}",
+        "textCase": "Uppercase"
+      },
+      "type": "typography"
+    }
   }
 }
