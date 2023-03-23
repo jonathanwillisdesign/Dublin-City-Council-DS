@@ -218,6 +218,70 @@
       "type": "spacing"
     }
   },
+  "facet-block": {
+    "wrapper": {
+      "value": {
+        "itemSpacing": "{1u}",
+        "verticalPadding": "{section-link-padding.vertical}"
+      },
+      "type": "composition"
+    },
+    "text": {
+      "text": {
+        "default": {
+          "value": {
+            "typography": "{body.small.default}",
+            "fill": "{fg.text.primary}"
+          },
+          "type": "composition"
+        },
+        "selectable": {
+          "value": {
+            "typography": "{body.small.default}",
+            "fill": "{fg.notice.status}"
+          },
+          "type": "composition"
+        },
+        "featured": {
+          "value": {
+            "typography": "{body.small.default}",
+            "fill": "{fg.text.inverted}"
+          },
+          "type": "composition"
+        }
+      }
+    },
+    "container": {
+      "default": {
+        "value": {
+          "horizontalPadding": "{section-link-padding.horizontal}",
+          "fill": "{bg.card.default}"
+        },
+        "type": "composition"
+      },
+      "hover": {
+        "value": {
+          "horizontalPadding": "{section-link-padding.horizontal}",
+          "fill": "{bg.card.hover}"
+        },
+        "type": "composition"
+      },
+      "selected": {
+        "value": {
+          "horizontalPadding": "{section-link-padding.horizontal}",
+          "fill": "{bg.card.active}"
+        },
+        "type": "composition"
+      },
+      "selected-hover": {
+        "value": {
+          "horizontalPadding": "{section-link-padding.horizontal}",
+          "fill": "{bg.card.active-hover}"
+        },
+        "type": "composition"
+      }
+    }
+  },
   "section-link-padding": {
     "vertical": {
       "value": "10.5",
