@@ -148,6 +148,13 @@
         }
       }
     },
+    "share": {
+      "value": {
+        "typography": "{body.standard.default}",
+        "fill": "{fg.text.secondary}"
+      },
+      "type": "composition"
+    },
     "form-label": {
       "default": {
         "value": {
