@@ -119,7 +119,7 @@
           "description": "Central footer section"
         },
         "secondary": {
-          "value": "{blue.4}",
+          "value": "{undocumented.blue.F}",
           "type": "color",
           "description": "Section left and right of main footer area"
         }
@@ -131,7 +131,7 @@
           "description": "Central section in the bottom strip of footer"
         },
         "secondary": {
-          "value": "{blue.6}",
+          "value": "#001A20",
           "type": "color",
           "description": "Section left and right of bottom strip of footer"
         }

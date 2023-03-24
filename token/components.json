@@ -80,6 +80,13 @@
           "fill": "{fg.text.primary}"
         },
         "type": "composition"
+      },
+      "h4-link": {
+        "value": {
+          "typography": "{heading.h4}",
+          "fill": "{fg.text.link}"
+        },
+        "type": "composition"
       }
     },
     "body": {

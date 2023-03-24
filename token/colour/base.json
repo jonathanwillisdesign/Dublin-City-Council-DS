@@ -126,6 +126,10 @@
         "value": "#80BACF",
         "type": "color",
         "description": "❓ Used as a section link divider"
+      },
+      "F": {
+        "value": "#002A35",
+        "type": "color"
       }
     },
     "gray": {
